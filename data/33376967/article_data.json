@@ -1,0 +1,62 @@
+[
+    {
+        "pmid": "33376967",
+        "title": "RNAseq Analysis of Rodent Spaceflight Experiments Is Confounded by Sample Collection Techniques.",
+        "year": "2020",
+        "journal": "iScience",
+        "abstract": "To understand the physiological changes that occur in response to spaceflight, mice are transported to the International Space Station (ISS) and housed for variable periods of time before euthanasia on-orbit or return to Earth. Sample collection under such difficult conditions introduces confounding factors that need to be identified and addressed. We found large changes in the transcriptome of mouse tissues dissected and preserved on-orbit compared with tissues from mice euthanized on-orbit, preserved, and dissected after return to Earth. Changes due to preservation method eclipsed those between flight and ground samples, making it difficult to identify spaceflight-specific changes. Follow-on experiments to interrogate the roles of euthanasia methods, tissue and carcass preservation protocols, and library preparation methods suggested that differences due to preservation protocols are exacerbated when coupled with polyA selection. This has important implications for the interpretation of existing datasets and the design of future experiments.",
+        "full_text": "",
+        "introduction": null,
+        "conclusion": null,
+        "images": [
+            {
+                "filename": "Figure_1.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_2.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_3.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_4.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_5.jpg",
+                "caption": "Evaluation of Gene Expression and Transcript Integrity in RR-1 NASA Carcass-dissected FLT and GC Samples Prepared via polyA\nSelection and Ribodepletion Methods\n(A) Principal component analysis of gl obal gene expression in RR-1 NASA space\ufb02ight (FLT) and g round control (GC) liver samples dissected from frozen\ncarcasses (C) and prepared via ribodepletion (Ribo( /C0))"
+            },
+            {
+                "filename": "Figure_6.jpg",
+                "caption": "Gene Expression and Transcr ipt Integrity Analysis of Preservati on Methods for Liver and Quadriceps\nSamples\nLiver and quadriceps samples were dissected from mice im mediately after euthanasia with pentobarbital/phenytoin\n(Euthasol) then preserved in dry ice (I_DI), liquid nitrogen (I_LN2), or RNA later (I_RNAlat) before RNAseq analysis"
+            },
+            {
+                "filename": "Figure_7.jpg",
+                "caption": "Sample Preservation and Preparation Recommendations\nRecommendations are provided for euthanasia, carcass and tiss ue preservation, library preparation, and quality control\n(QC) analysis methods based on observatio ns made from liver and quadricep samples"
+            },
+            {
+                "filename": "Figure_8.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_9.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_10.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_11.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_12.jpg",
+                "caption": "No caption available"
+            }
+        ]
+    }
+]

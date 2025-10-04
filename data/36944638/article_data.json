@@ -1,0 +1,606 @@
+[
+    {
+        "pmid": "36944638",
+        "title": "Toward sustainable space exploration: a roadmap for harnessing the power of microorganisms.",
+        "year": "2023",
+        "journal": "Nat Commun",
+        "abstract": "Finding sustainable approaches to achieve independence from terrestrial resources is of pivotal importance for the future of space exploration. This is relevant not only to establish viable space exploration beyond low Earth-orbit, but also for ethical considerations associated with the generation of space waste and the preservation of extra-terrestrial environments. Here we propose and highlight a series of microbial biotechnologies uniquely suited to establish sustainable processes for in situ resource utilization and loop-closure. Microbial biotechnologies research and development for space sustainability will be translatable to Earth applications, tackling terrestrial environmental issues, thereby supporting the United Nations Sustainable Development Goals.",
+        "full_text": "Perspective https:doi.org10.1038s41467-023-37070-2 Toward sustainable space exploration: a roadmap for harnessing the power ofmicroorganisms Rosa Santomartino1,N i l sJ .H .A v e r e s c h2,3, Marufa Bhuiyan4, Charles S. Cockell1, Jesse Colangelo5, Yosephine Gumulya6, Benjamin Lehner7, Ivanna Lopez-Ayala8, Sean McMahon1, Anurup Mohanty9,10,S e r g i oR .S a n t aM a r i a11,12, Camilla Urbaniak13,14, Rik Volger15,J i s e o nY a n g16L u i sZ e a17 Finding sustainable approaches to ach ieve independence from terrestrial resources is of pivotal importance for t he future of space exploration. This is relevant not only to establish viable space exploration beyond low Earth orbit, but also for ethical considerations a ssociated with the generation of space waste and the preservation of extra-terrestrial environments. Here we proposeand highlight a series of microbial biotechnologies uniquely suited to establishsustainable processes for in situ resourc e utilization and loop-closure. Micro- bial biotechnologies research and develo pment for space sustainability will be translatable to Earth applications, tackli ng terrestrial environmental issues, thereby supporting the United Nation s Sustainable Development Goals. Humanity may be tempted to view the cosmos as a rich reservoir of innite resources. However, the practical reality of space exploration tells a different story. The need for sustainability in space explora-tion, as well as the exploitation of space, is becoming more evidentwith the strengthening desire for the expansion of human activitiesbeyond Earth-orbit, pursued by public and private sectors alike.When applied to space, the concept of sustainability has often been understood as ensuring that all humanity can continue to use outer space for peaceful purposes and socioeconomic bene t now and in the long term 1. Until now, it mainly referred to the need to control, regulate, and remove space debris from low Earth orbit (LEO)2,3and planetary protection (which promotes the implementation anddevelopment of the responsible exploration of the solar system, inorder to protect the space environments and Earth) 3. As humans aspire to venture into deep space, the de nition of this concept shifts and expands, and the self-sustainability of mission operationsbecomes a critical aspect. Loop-closure, which indicates the recy-cling and the reuse of resources toward the establishment of a cir-cular economy, could greatly enhance the sustainability of spaceexploration, and it is key not only to minimise the costs of resupply of resources from Earth but also for ethical considerations associated with space waste generation and the preservation of extra-terrestrialenvironments 410. The United Nations resolved that outer space activities should minimise impacts on the space environment, as wellas on Earth, taking into account the 2030 agenda for SustainableDevelopment 11,12.Received: 8 September 2022 Accepted: 1 March 2023 Check for updates 1UK Centre for Astrobiology, School of Physics and Astronomy, University of Edinburgh, Edinburgh, UK.2Department of Civil  Environmental Engineering, Stanford University, Stanford, CA, USA.3Center for Utilization of Biological Engineering in Space, Berkeley, CA, USA.4Everest Innovation Lab, Honolulu, HI, USA.5Cemvita Factory, Westminster, CO, USA.6Centre for Microbiome Research, Queensland University of Technology, Brisbane, QLD, Australia.7DMEC, The Haag, Netherlands.8Universidad del Valle de Guatemala, Guatemala City, Guatemala.9Blue Marble Space Institute of Science, 600 1st Ave, Floor 1, Seattle, WA 98104, USA.10Department of Biotechnology, SRM Institute of Science and Technology, Kattankulathur, India.11Space Biosciences, NASA Ames Research Center, Mountain View, CA, USA.12KBR, Moffett Field, Mountain View, CA, USA.13NASA Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA.14ZIN Technologies Inc, Middleburg Heights, OH, USA.15Department of Biotechnology, Delft University of Technology, Delft, The Netherlands.16Biodesign Center for Fundamental and Applied Microbiomics, Biodesign Institute, Arizona State University, Tempe, AZ, USA.17BioServe Space Technologies, University of Colorado Boulder, Boulder, CO, USA. e-mail: rosa.santomartinoed.ac.uk ;luis.zeacolorado.edu Nature Communications  (2023) 14:1391 11234567890():,; 1234567890():,;The biggest impediment to progress on this frontier is the lack of deployable technologies enabling outposts, extended missions and, inthe future, settlements, to sustain themselves through in situ resourceutilization (ISRU) and maximised recycling of resources 5. In addition to mechanicalphysicalchemical approaches, biotechnologies broadly and microorganisms speci cally will help enable long-term life-sup- port and habitat systems performance (loop-closure), as well as ISRU, manufacturing and energy collectionstorage6,7,1317. Microbiological approaches can be self-sustaining with occasional monitoring andmaintenance, owing to their resilience, and could overall require lessenergy than physicochemical approaches 16. Here, we focus on the pivotal roles that microorganisms can play in the development of technologies for sustainable human explorationof deep space, considering two main aspects: (i) the requirement formature biotechnologies and bioprocesses to allow near closed-loop operations of mission functions, such as life-support, to increase autonomy and sustainability; and (ii) the need to reduce supply chaindependency for the expansion of human presence in space. Theapproaches presented here are based on processes and technologiescurrently implemented on Earth at different technology readinesslevels (TRL), which must be adapted to meet the speci c requirements and challenges of the space environment. Selecting the most suitablebioprocess and most applicable microorganism for any given spaceapplication is non-trivial, as terrestrial technologies are rarely readilyadaptable to the harsh conditions of space 18. Therefore, extensive research and development are compulsory to increase TRL to the point where these technologies can be successfully implemented in space16. Finally, microbial biotechnologies aimed to increase the sus- tainability of space exploration may be translatable to Earth applica-tions for advancement towards a circular economy, further supportingthe United Nations Sustainable Development Goals (SDGs) 11,12. Habitat air bioremediation A spacecraft s Environmental Control and Life Support System (ECLSS) manages water supply, atmospheric pressure and composition (O 2, CO2, and inert-gas levels), temperature and relative humidity, as appropriate for human operations and conducive to comfortable living19. Carbon dioxide on the International Space Station (ISS) is currently scrubbed from the cabin air and converted in a Sabatierreaction to recover oxygen, while the by-product (methane) is ventedinto space. This has two drawbacks: (i) hydrogen is required as asubstrate, production of which is energy intense; (ii) hydrogen andcarbon are lost, requiring constant resupply. Recycling CO 2andor methane back into the organic matter could improve loop-closure andpreserve resources. Microbial bioremediation can support the removalof CO 2from the atmosphere in habitats, while also supplementing the generation of breathable oxygen20. The captured carbon may be upcycled again and reintegrated into the resource cycle, e.g., for the biomanufacturing of foodsupplements. Alternatively, captured car- bon may be sequestered for end-use (Fig. 1), e.g., for bioconcrete production or microbial-electrolytic carbon capture, as describedlater. Direct air capture of CO 2could reduce the need for energy- intensive auxiliary processes and shorten the recycling loop21. Researchers at the Center of Applied Space Technology and Micro-gravity (ZARM, University of Bremen, Germany) are exploring theapplication of cyanobacteria like Anabaena sp. PCC 7938 in a Martian context, taking advantage of its carbon- (photosynthetic) andnitrogen- xing (diazotrophic) capabilities. Low carbon concentration in habitats or spacecraft yields a conversion ef ciency two- to ve-fold lower than with preconcentrated CO 222. Hence, the most applicable approach will strongly depend on the mission scenario, in terms of size, extent and duration. Reversible carbon scrubbers23combined with microbial conversion may enable a sustainable and near-closedprocess for deep space travel and exploration missions or initialhuman settlements 24,25.H u m a nw a s t ep r o c e s s i n ga n dr e c l a m a t i o n Human waste management poses a challenge for human space exploration, and proposed solutions commonly focus on how tocompact, sterilise and dispose of human waste, rather than recycling it 26. On the ISS, human waste is currently stabilised, dried and ejected from the station to burn up in Earth sa t m o s p h e r e27. This method is clearly not sustainable for long-distance missions, as it represents asink of potentially useful resources. Solid human waste could insteadbe used as a feedstock for production of food and edible supplements, as well as nutrientsfertiliser for microbial or plant-based Life SupportSystem (LSS) components (Fig. 1). Many physicochemical approaches to solid waste management, such as pyrolysis or incineration, are beingproposed 26. However, microbiologically supported processes could enhance human waste recycling by enhancing loop-closure. The Eur-opean Space Agency (ESA) supported MELiSSA project (Micro-Ecolo- gical Life Support System Alternative) includes a series of interconnected bioreactors for LSS; it is a good example of howdiverse types of waste-streams, including human metabolic end-pro-ducts, could be upcycled using microorganisms 5.A l t h o u g ha n a e r o b i c waste processing is usually considered less time-ef cient than aerobic methods, it can achieve comparable degradation rates as physico-chemical processes. A two-component system, which anaerobicallyconverts liquid and solid human waste to protein- and lipid-richmicrobial biomass for food production, has been developed 28. Food production The ability to produce food in space will be of paramount importanceto achieve sustainability and self-suf ciency on long-duration space missions and may be signi cantly enhanced by microbial biotechnol- ogy. For example, the plant microbiome will play a pivotal role in thesuccess of crop production in space. As with the human microbiome,the plant-associated microbial community provides a multitude ofbene ts to the host, such as promoting plant growth, stimulating phytohormone production, controlling pathogens, regulatingimmune function, and alleviating abiotic and biotic stressors 29.S y m - biotic bacteria are also essential in solubilizing nutrients from theenvironment and converting them into bioavailable forms, and improving soil fertility 29,30. Nitrogen recovery for food production can, for instance, be accomplished by microbial-mediated nitrogen xation from the atmosphere, or nitri cation of urine, mediated by synthetic microbial communities (see section Human waste processing and reclamation )31. For long-duration space travel, the use of agricultural probiotics should be considered to help grow robust, stable, and healthy crops inspace. Agricultural probiotics are already used in farming on Earth asplant biostimulants 32, as biofertilisers33and for bioremediation to improve soil quality34. A better understanding of how the composition and function of the plant microbiome changes in space ight can help to customise probiotic supplements for space farming. For example, the concept of rhizobial inoculants is already in practice: seeds are inoculated with chosen strains of bacteria and fungi that can improvecrop productivity and environmental sustainability 35. Additional attri- butes of the inoculum geared towards space ight could also consist of bacteriafungi that help maximise resource ef ciency, thereby requiring less input for optimal growth. Algae and cyanobacteria maybe cultivated not only for air revitalization, as discussed before, butalso as a food source and to support plant growth 9,20. For successful human outposts on the Moon or Mars, crews will have to produce their own food, taking advantage of local (in situ)resources, like regolith (see the section Soil remediation ). Agricultural methods may include soil-based farming, hydroponics, cellular agri- culture, etc. Creation of a greenhouse-like infrastructure, by theexample of the ISS Advanced Plant Habitat 36, and suf cient light, water supply, soil nutrients, and other necessary parameters for crop growthmay enhance loop-closure. These and other resources could bePerspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 2obtained from other (biologically supported) LSS and ISRU compart- ments (Fig. 1). Pharmaceutical synthesis The idea of in situ manufacturing of drugs in space and taking advantage of microgravity has been around for decades37.T h es l o w e r growth of crystals in the microgravity environment has enabled thediscovery of new compounds 38,39. The altered expression of microbial virulence andor pathogenesis-related genes in space can elucidate theunderlying mechanisms and assist with identifying new vaccines andtreatments 39,40. The space environment also brings physiological changes to astronauts during space ight39, providing accelerated models for aging and disease in drug discovery41. In the context of human exploration to the Moon or Mars, having a pharmaceuticalfoundry in space can remove the dependency on a supply of medicines from Earth and provide ways to manufacture drugs on demand 39. Many of the carry-along pharmaceuticals will expire during a Mars-returnmission of standard duration (1.5 or 2.7 years), or have reducedpotency due to exposure to the space environment 42,w h i c ht e n d sto alter the active pharmaceutical ingredients and increases the concentrations of degradants or impurities42. To date, no studies have been reported on the stability of biological drugs such asmonoclonal antibodies, versatile therapeutics capable of treating various space-relevant diseases, including osteoporosis, infections and inammations. Microbes have long been used on Earth for the production of pharmaceuticals and high-value chemicals. Given the extreme condi-tions and limited resources in space environments, spore-formingbacteria (resisting radiation andor desiccation), extremophiles andextremotolerants (resisting harsh environments), and photo-autotrophs (surviving on inorganic carbon, e.g., cyanobacteria) havebeen sent to space to investigate their potential for application inbiomanufacturing. Where necessary, microbes may also be engineeredfor the production of pharmaceuticals in space, which is not a trivial task, given the often complex biosynthetic routes to compounds of interest, as well as the diversity thereof. This also impacts downstreamprocessing, given the stringent requirements for, e.g., purity, andbecause a one- ts-all solution rarely exists 43. Computational and minerals urea Food and medicine production regolith regolith R e ggg o l i t h b i o r e r m e ddd i a t a i o n a n d b i o m i n i n gg bio- reactors W a W W s t s e t r e r c yyy c c y l i n gg bioreactorsconsum. e-waste plastic H H u u m m a a n n h h a a b b i i t t a a t t a a s s a a n n d d l l a a b b o o r r a a r t t a a o o r r i i e e s s Sabatier reactor H2CH 4 ElectrolyserH2OH2O purifier H2OH2OCO 2 O2 O2 H2O O2 H2O(used) CO 2 minerals, carbon soil, mineralsH2O O2 fertiliser O2 bioreactors carbonO2H2O food, medicineconsumables, hardwar e, e-waste H2Oraw materials Fig. 1  Graphical rendering of a microbial biotechnology-based life-support system in an agnostic space environment. Microorganisms are included in all the functional compartments, including the Human habitats and laboratories (i.e.,human microbiome) and those that also require mechanochemical reactors. Up- and recycling of different resource streams and loop-closure is indicated by whitearrows, supported by in situ resource utilization (coloured arrows), as applicable.Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 3synthetic biology tools have been used to simplify the complicated metabolic pathways of conventional biotechnological drug produc-tion. For instance, acetaminophen, a versatile drug to treat infectionand pain, was proposed to be synthesised by extending the shikimate (also known as chorismate) pathway of the cyanobacterium Synecho- cystis sp. PCC 6803 44. Microbial recombinant protein expression may also be affected in space environments45. Some studies showed that protein production in Pichia pastoris ,Escherichia coli ,o r Sacchar- omyces cerevisiae was higher in simulated microgravity than in Earth- gravity45. Given that the upcoming exploration missions will go beyond LEO, studies of space pharmaceutical synthesis are mainly focused oncompounds or nutrients for countering microgravity-induced osteo-penia and acute radiation syndrome 43. Furthermore, there are efforts t oi n v e s t i g a t ew a y st oc o m p e n s a t ef o rt h ew e a k e n e di m m u n es y s t e m of astronauts during long-duration space missions, which can be addressed by the consumption of probiotics or prebiotics to maintaina healthy gut microbiome 39,46. A source of microbes that is becoming increasingly relevant for pharmaceutical biosynthesis is the human gut microbiome. A recentmetagenomic analysis from the Human Microbiome Project showedthat human-associated bacteria encode the biosynthetic machinery tosynthesise a vast array of secondary metabolites, such as small bioac-tive molecules (e.g. antibiotics). Many studies have investigated thechanges in the composition and functionality of the gut microbiomeduring space ight and in analogue studies 47.T h eu s eo fc u r a t e d microbial communities (e.g. those that consist of non-pathogenic strains) could be considered to reduce the risk of infectious diseases48. Biomining Beyond LEO, the cost of the development of infrastructure increasesdramatically. Therefore, a cost-effective supply of resources isrequired. One option is to harness in situ resources available at thedestination through biomining 44,4951. Biomining, the use of micro- organisms to extract valuable metals from crude minerals (e.g., rego-lith) and mine waste 52, has seen extensive effort for adaptation to space applications50,51,5356. Space biomining is primarily limited by econom- ics: biologically mediated processes are often less expensive and less environmentally harmful than hydrometallurgical processes but canrarely provide the same high rates of separation. However, when takinginto account the environmental and health costs associated withmining activities on Earth, biomining is already cost-effective for avariety of resources (copper, gold, nickel and cobalt extraction are allperformed at a commercial scale) 57. Chemolithoautotrophs (e.g., iron andor sulphur-oxidizing microorganisms) could be suitable for biomining of sulphide miner-als, occurring in a variety of settings on Mars or in asteroidalmaterials 58. Microorganisms with other nutritional preferences (e.g., organotrophs), consortia, or bioengineering techniques could be used elsewhere: the Lunar surface is mainly composed of silica-saturatedrocks, with a generally low sulphur content 50,54. The need for organic nutrients to feed organotrophic microorganisms, which is limited bythe availability of carbon in space environments, could be at leastpartially satis ed in a closed-loop system (Fig. 1). Microbial extraction of rare earth elements and vanadium from basalt 54,55,58, and platinum group elements from L-chondrite meteoritic material has been demonstrated on the ISS55,56,59. However, further investigations are required to demonstrate the scalability of thesesystems, improve performance, and adapt the technology to otherelements of interest (e.g., silicon, iron, aluminium). Water, oxygen, hydrogen as well as other critical molecules and elements could also be obtained via biomining 50. These are essential compounds not only from the biotechnological perspective but indeed for any humanactivity. Knowledge of the ability to perform biomining under Lunarand Martian conditions is scarce or of theoretical character 50,51andefforts toward advancing bioleaching capability from extra-terrestrial regolith under space conditions, and toward the development ofbioengineering and synthetic biology approaches, are critical tomature technologies. While prospecting is inherently not sustainable in the long run because of the inevitable depletion of resources (i.e., the ores, in thecase of mining), biomining is generally considered more envir-onmentally friendly than traditional mining because it avoids the useof toxic inorganic reagents. This also matters for extra-terrestrialapplications, as it could reduce the need of auxiliary resources. It hasbeen proposed that a biomining reactor could be added to a bior-egenerative LSS 50, hence contributing to loop-closure and ISRU (Fig. 1). Structural biomanufacturing: bioconcrete, myco-architecture Construction and maintenance of infrastructure beyond Earth is a necessary yet daunting task considering the scarce resource avail-ability. Conventional methods of construction utilise large amounts ofraw materials and require steady maintenance. To make constructionand infrastructure maintenance more sustainable, prioritizing repairover a replacement will be essential and can be facilitated by biologicalself-healing materials. Concrete and cement are essential on Earth for construction and binding materials. While likely not being used to the same extent inspace due to mass constraints, surface structures may to some degreerequire the binding of minerals for construction. Microbially induced calcite precipitation (MICP), for example, is a biogeochemical process whereby microorganisms precipitate calcium carbonate (CaCO 3)60, which can be used as a binding agent61. Additionally, MICP can also help in the bioremediation of toxic compounds and CO 2 sequestration62,63. Microbial-electrolytic carbon capture could be uti- lised to sequester CO 2, and it has been estimated that in the United States, 68 million tons of CO 2per year could be captured by this process64. Impact events pulverise regolith on planetary surfaces over time, forming extremely ne dust that can hinder equipment function and cause harm to humans65. Bacteria with MICP capability could be used to bind and harden regolith, consolidating the dust66. Similarly, cya- nobacterial bio lms may be useful to control and bind ne regolith67. Byproducts of urea degradation-based MICP, such as ammonium andnitrate, could be further upcycled into a closed-loop system (Fig. 1). However, when the release of toxic byproducts must be avoided 68, alternative microorganisms for calcium carbonate precipitation can beused (e.g., the methane-oxidizing bacterium Methylocystis parvus ) 69. Fungi-based biotechnologies may provide another opportunity to produce sturdy and resistant structures for space applications. Myco-architecture refers to the production of rigid structural componentsand surfaces using fungi. Fungal mycelia can form dense networks that combine with other materials, like e.g. regolith, to form mycelium- based composites. These are commonly used in various industries onEarth 70. The National Aeronautics and Space Administration (NASA) has explored this solution for space exploration, by utilizing mycelia asa means to construct rugged furniture and habitat shells for the Mar-tian and Lunar surfaces 71. While research for space applications is in its infancy, the extraordinary resilience of fungi has even been a subject ofinvestigation for radioprotection 72. This potentially provides for in situ manufacturing of robust and self-regenerating structures, and engi-neered living materials, thus avoiding the need for excessive re-supply,and improving the sustainability of space exploration by mitigating thesupply chain from Earth. Biological collection and storage of energy Energy collection and storage (e.g., of fuels) is a critical challenge inany remote environment and is particularly dependent on supplychain consistency. Certain anaerobic bacteria (so-called electricigens ,Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 4e.g., Desulfuromonas, Geobacter, etc.) can reduce organic waste to generate electric current. Speci cally, microbial fuel cells (MFC) utilise microbes to convert chemically bound energy into electricity73. Har- nessing the reducing power of organic waste to generate electricity, MFC could be coupled with in situ ow-through waste remediation systems44. Such microbial systems can be categorised into dark- fermentation and photobiological processes, and they can use wetbiomass from, for example, waste streams 74,75. In a similar fashion, and quasi-opposed to MFC, microbial electrosynthesis (MES) can be usedto convert electricity (back) into chemical compounds for e.g., energystorage, to bridge intermittent availability and demand 76.S o m ee v i - dence also indicates the possibility of generating hydrogen throughnanoparticle production from Lunar regolith 77,78.H y d r o g e n ,m e t h a n e , and other biofuels can also be produced from other in situ resources,such as water and inorganic carbon, photo- or lithoautotrophically (e.g., with cyanobacteria and various algae species), to generate stable energy carriers 6,78. These could be liquid compounds with high energy density, such as butanediol, as means for storage of energy, to sup-plement or complement chemically derived bipropellants (hydrogenmethane and oxygen) 76,78. In many cases, using electricigens, hydro- genic, methanogenic, and biofuel-producing microorganisms, wasteproducts and in situ resources can be upcycled for conversion, col-lection and storage of energy with a higher yield and lower energyinput than traditional mechano-chemical approaches. Recycling of electronics, plastics and other waste streams Currently, most efforts of developing highly ef cient systems for loop- closure focus on recycling and upcycling of biological waste (e.g.,food, blackgreyyellow water) 79, while solutions for synthetic waste (e.g., electronic waste, plastics, consumables) are largely unexplored,and its current management is unviable in long-term missions 26. Valuable metals (Fe, Cu, rare earth elements, Al, Si, Zn), includ- ing precious metals (Au, Pt and platinum group elements), as well ascertain non-metals (Cl, P, N and even O) can be recovered frommetallic structures and electronic devices with biology 80. Reclaiming metals from electronic waste (e.g., computer components, switch- boards, solar panels) could reduce the need for resupply andor the more effortful sourcing from in situ resources through e.g., bio-mining (see section Biomining) 50,54. Physicochemical processes are available; however, bioleaching technologies are considered moreenvironmentally friendly and sustainable, in terms of costs andenergy requirements 81. The biochemical reactions implicated in these processes are analogous to those involved in biomining (seethe section Biomining), hence similar microorganisms and bio-technologies could be used to recycle electronic waste 82. Plastics have become indispensable in our everyday life on Earth being used, for instance, in the construction, packaging and manu- facturing industries. Beyond the common Earth-analogue applications, plastics, particularly those with high strength and durability, play a keyrole in supporting human activities in space, as components ofspacecraft and spacesuits 16. Most plastics are composed of organic polymers derived from non-renewable fossil fuels83.I na ne n v i r o n m e n t such as space, where fossil fuels are not available, recycling andupcycling of plastics will be important to (i) obtain feedstock formanufacturing to produce new consumables, (ii) re-use and recycleresources and thus close the loop on carbon-based feedstocks, and (iii)reduce waste disposal. Microorganisms have been shown to breakdown microplastics into metabolisable compounds that can supportgrowth. The process, called biodegradation, offers exciting paths towards a circular bioeconomy 83, and researchers at the UK Centre for Astrobiology (University of Edinburgh, UK) are exploring if thesemicrobial processes could also be leveraged for waste recycling inspace. Modern synthetic biology approaches could be used to pro-gramme microbial pathwaysfunctions tailored to extra-terrestrialenvironments 43,48, and use plastics as feedstock for upcycling and produce useful molecules84,85. Complementary to the microbial plastic biodegradation stands microbial production of plastics (e.g., bioplas-tics). Certain microorganisms can use a variety of feedstock, including CO 2,C H 4, or waste biomass, to produce bioplastics such as polyhydroxyalkanoates4. These processes will enhance sustainability by means of loop-closure, also because bioplastics are more readilybiodegradable than fossil-fuel-based polymers. While not direct functions of life-support (as is the production of e.g., food, oxygen, water), all the foregone microbial processes cansupport LSS and vice versa, making long-duration space ight more sustainable. For instance, metals deriving from electronic waste couldfeed LSS compartments containing plants or microorganisms, which inturn can enhance processes directly linked to LSS (Fig. 1) 50. Soil remediation Heavy metals and toxic compounds, such as perchlorates, could be removed from the Lunar and Martian regolith, allowing it to be used insoil formation for food production 86. To this aim, the removal of toxic compounds is necessary due to the potential risk that their accumu-lation in plant tissues poses for the crew 87. As described above (see the section Biomining), microorganisms can bind and mobilise speci c elements from Lunar and Martian regolith53,88. This, together with the removal of toxic elements and compounds (bioremediation), canimprove the quality of regolith as a plant-growth substrate 89, drasti- cally reducing the required resources for the continued operation of plant-based LSS. Ultimately, this circular approach combines key ele- ments of the processes described so far while enabling the productionof the food needed to sustain humans off-Earth and minimizing theresources that need to be transported from Earth. Bioremediation may be supported with proteobacteria, e.g., Sphingomonas , as well as fungi, such as Penicillium spp. 90,91.G e n e t i c engineering of these organisms or other species could enable theremoval of perchlorates (e.g., conversion of perchlorates into mole-cular chloride and oxygen 87), as well as heavy metals, radioactive species accumulation and conversion92, acids, salts, and organic pol- lutants from extra-terrestrial regolith. As microorganisms catalyse very speci c reactions, their use can result in highly ef cient use of resources, while leaving non-toxic compounds unaltered. In addition, the energy requirements for bior-emediation are generally lower than physicochemical alternatives suchas heat-treatment to decompose perchlorates. The last point might beoffset by required nutrients, which are not guaranteed to be availablein situ. However, these could be derived from the other biological LSScompartments, including those described above. Current knowledgeon the applicability of these processes in space is limited, therefore abetter understanding of the mechanisms of bioremediation, microbialbehaviour in the space environment and its potential for soil formation is desirable. Technology needs and future research A common technological denominator across most of the applications discussed thus far is the need to provide a controlled environment forthe microbes and the functions they support or enable. Microbialprocesses depend on temperature, pressure, oxygen availability (orabsence), pH, gravitational and radiation conditions, and otherfactors 93,94. These aspects drive (i) the technological need for bior- eactors tailored to providing the appropriate environment for speci c processes, and (ii) the research needed to understand the effects of thespace environment on these processes, to identify the conditions that maximise yield while minimising resources, engineering, and opera- tional requirements. From a technological perspective, the importance of developing space-ready bioreactors is paramount. These will likely need to bespecialised for the application they support, although commonalitiesPerspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 5among them are expected, which include: (i) providing and main- taining a controlled environment (temperature, pressure, liquidgascomposition), (ii) the ability for data collection in terms of the viabilityof the engineered system and the microbes therein, as well as its performance (including the chemical and physical status of the bulk medium and gas as applicable), (iii) the presence of interfaces toprovide precursors, receive products, and attach downstream pro-cessing equipment, (iv) the ability for on-demand sample collection,(v) the ability to operate autonomously, at least partially; and (vi) theappropriate level of containment to adhere to planetary protectionguidelines, which is particularly relevant for future Martian settle-ments (notably, closed-loop systems have been identi ed as a poten- tial solution from this perspective) 95. There will be differences depending on the application, for example, the surface area to volume ratio (SAVR), e.g., micro- biologically supported direct air-capture of CO 2with photoautotrophs requires high SAVR to maximise the molar ratio of CO 2to microbes and cellular exposure to light96. In contrast, some pharmaceutical synthesis processes may be performed anaerobically and hence maynot depend on SAVR 39. Another aspect that may vary in culture volume: applications requiring high-SAVR will likely generate designdrivers with serpentine-like culturing volumes, particularly for pho-totrophic organisms (similar to high-performance heat-exchangers),while low-SAVR applications may be enabled with simpler cylindricaltanks. This, in turn, may drive the systems need for uidow and mixing 94.T h e r ea r em u l t i p l eo t h e ra s p e c t st oc o n s i d e rt h a tc a na l s o impact process ef cacy, which is especially applicable in bioreactors without stirring. Namely, these refer to mass transport phenomena,both intra- and inter-phase (liquid solid, gas liquid, gas solid), which are dependent upon concentration gradients, temperature, etc., andmust be considered during bioreactor design. Two technological needs relevant across applications will be data acquisition and sample collection, which in several cases will requiregasliquidsolid separation. On the Lunar and Martian surfaces, thismay occur naturally owing to the presence of (partial) gravity.Operations taking place in microgravity (e.g., space stations and Mars-transit vehicles), however, pose a more challenging engineering pro- blem. Of particular interest from a biological perspective would be the development of automated and real-time monitoring systems (growthand production rate, titre and yield, pH, pO 2,a sw e l la si n p u t sa n d outputs), to allow characterization of system performance. A requirement for any microbial-based biotechnology is liquid water97, one of the most critical commodities for any long-term space activity. On the ISS, water is currently obtained by the Water RecoverySystem, which is part of ECLSS 18: urine, humidity condensate, and human waste are recycled to generate potable water, through multipleprocesses including distillation, ltration, high-temperature catalysis and chemical disinfection 98. This may not be suf cient on long- duration missions and, ultimately , settlements. Therefore, water recovery must be improved by a more complete loop-closure (Fig. 1). Moreover, additional water could be obtained from different locationson the Moon and Mars, or from asteroids, by mechanicphysical pro-cesses andor biomining (see the section Biomining) 50. Additional technology needs include the compartmentalisation of applications requiring a certain level of containment and isolationfrom others. Some applications like MICP, soil-bioremediation andmyco-architecture may require exclusively dedicated compartmentsto protect the rest of the surface base from otherwise unwantedmicrobial communities and the regolith, which can have detrimentaleffects on crew health and equipment, while others may be performed in the same habitat-section (Fig. 1). Space conditions, especially the high levels of radiation, showed to induce mutations, changing thegenotype of microbial systems in a way that the phenotype wasimpacted 93. These could affect the reliability and robustness of microbial processes in space. Hence, technologies should includeradiation shielding where appropriate, strict and frequent control of phenotypes and genotypes, as well as redundancies (e.g., protectedstorage of the primary inoculum as backup). Each of the categories described in the section Habitat air bior- emediation requires research to increase their TRL to nine, as described in Fig. 2. This research will, in turn, need dedicated platforms to perform research, for instance, access to microgravity and partialgravities 40,99, as well as space radiation. Research needs, in addition to what is described in the former section, include bio lm control stra- tegies. Bio lm formation has been a problem in every space station from Salyut 6 to ISS and can cause operational disruption of ECLSSequipment. This has been addressed via resupply from Earth, whichwill not be possible for long-term missions beyond LEO 100.E n g i n e e r e d systems hosting microbial cultures for desired applications will benaturally exposed to the risk of unwanted microbial bio lm formation (i.e., fouling). This discussion motivates the following set of open research questions: (i) how can microbial biotechnology enhance the sus-tainability of long-term deep-space exploration missions andsettlements, waste-recycling, while preserving extra-terrestrialenvironments? (ii) How can these processes be conducted whileadhering to planetary protection guidelines? (iii) What technol-ogies are needed to monitor process ef ciency? For each appli- cation: (iv) what microorganisms (including genetically modi ed) and cultivation conditions opti mise the process in the relevant gravitational and radiation environment? (v) What are the bior- eactor, operational, and infrastr ucture requirements applicable to implementing the process? (vi) H ow do we collect, extract, and rene aliquots and nal products obtained from the processes? Benets for Earth Space exploration has always been a catalyst and testbed for the development of new technologies with applications on Earth (e.g.,spin-off technologies) 101. Space science s implications for solving ter- restrial environmental issues are not new, either. In fact, space activ-ities are recognised by the United Nations as essential tools for realising the achievement of the SDGs  11,12. Further, space-based tech- nologies are indispensable for monitoring weather and vegetation patterns (natural as well as anthropogenic), deforestation, waterresources, plastic pollution, carbon emissions and climate change.More speci cally, space biotechnologies listed in this work could provide powerful tools to support a number of speci cS D G s ,i n c l u d - ing Zero Hunger (Goal 2), Good Health and Well-Being (Goal 3), Clean Water and Sanitation (Goal 6), Affordable and Clean Energy  (Goal 7), Industry, Innovation and Infrastructure (Goal 9), Sustainable Cities and Communities (Goal 11), Responsible Consumption and Production (Goal 12), and Climate Action (Goal 13) 11,12.I nt h ef u t u r e , terrestrial environmental issues may be addressed by using space biotechnologies deliberately designed to enhance sustainability: sys- tems that allow tight loop-closure and near-ideal circular operation ofresources on a small scale are exemplary for application at a globalscale. This kind of tangible public bene t is key not only for justifying space exploration to funding agencies and governments but formotivating scientists to invest their time and energy in spaceexploration at a time when multiple overlapping crises threaten thestability of our civilization and its ecological support systems. Space agencies and organizations are aware of the signi cant potential of this concept. An increasing number of calls for proposalsare being launched with the aim of developing strategies to tackleenvironmental problems on Earth by using space resources. In 2021, ESA (i.e., ESA Circular Economy Kick-Start Competition ) 102and NASA (i.e., Orbital Alchemy Challenge )103launched relevant competitions. In 2022, the Center for the Advanceme nt of Science in Space (CASIS) announced the Beyond Plastics sustainability challenge (i.e., CASIS Beyond Plastics )104, with the motto What if the next great discovery toPerspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 6improve our planet came from research off the planet? . Notably, two out of the three nalist projects, including the winner, involved the use of microorganisms. Many of the microbial-based space technologies and strategies presented here have the potential to be transferred and pose bene ts to terrestrial applications. Soil remediation techniques developed forapplication on other terrestrial bodies could be used to help react tosoil pollution on Earth, identifying or engineering organisms suitablefor cleaning up and degrading speci c contaminants, as well as deserti cation, using desiccation-resistant organisms. Similarly, tech- nologies or plantmicrobial genetic engineering could be used to allowfor crops to grow in less space with limited resources and delivercomparable or higher yields. Increased bacterial virulence in space ight has the potential to help identifying new targets for combating drug resistance 37.O n - demand space manufacturing of pharmaceuticals could result in sim-pler (e.g., fewer steps) yet exible drug production and puri cation than on Earth. This may transform the complex and hardly sustainableproduction processes currently in use, replacing them with biomanu-facturing and reducing the cost of pharmaceuticals, thus enablingaccess to critical medication in remote locations with scarce resources.Carbon-capture and -sequestration technologies will have directtransfer potential for Earth application in the effort to counteract cli-mate change. In the energy transition, hydrogen is considered a cornerstone for seasonal storage, industrial processes, and general grid balan- cing. Biologically production of hydrogen, utilised in the context of space technology, could advance the discovery of productionpathways for green hydrogen on Earth 75. Research in bio-concrete synthesis and myco-architecture will enhance the ways howmicroorganisms can be employed for the construction andmaintenance of infrastructure. Like space, Earth also has various extreme conditions. Engineering microbes for infrastructuremaintenance can solve problems in remote and austere locations. Improved and highly ef cient waste recycling, including but not limited to organicbiological, plasticconsumable, and electronicwaste, for space applications could be translated back for Earthapplications to tackle terrestrial waste management issues, land ll overow and environmental pollution. Conclusions With this work, we aimed to advocate the urgency of sustainable approaches for human space exploration, and the essential rolemicrobial biotechnologies could play in this. It has been discussedhow microbial biotechnologies may support several processes that, in turn, can help decrease supply chain dependency (from Earth) on long-duration deep-space exploration missions to eventuallyenable human footholds and settlements across the solar system. Inparallel, several of these microbially-supported processes may alsohelp close the loop on LSS and other systems, which can preserveresources and extra-terrestrial environments. These two aspects,independently and together, enable space exploration in a sus-tainable fashion. T op r o v i d ea p p r o p r i a t ec o n d i t i o n sf o rt h em a t u r a t i o no fn a m e d biotechnologies and to open the eld to a wider community, research and innovation are needed. Preliminary studies should be supported inlaboratories on Earth, simulation platforms, and in LEO, and full investigations in cis-Lunar space and on the Lunar surface. Augmenting existing space-based facilities to increase the capacity for spaceexperiments, in terms of sample replicates and experimental condi-tions, should also be considered to improve the impact of the pre-liminary studies. Funding should take into account the high cost (and Fig. 2  Schematic representation of current technology readiness level (TRL) for the considered biotechnologies. Arrows indicate the speci c research and development needed to advance the TRL of each technology. TRL is de ned as indicated by NASA.Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 7time) of genetic engineering and synthetic biology, on which these technologies will likely heavily rely. Finally, the potential of these technologies for terrestrial ben- ets has been discussed, with speci c reference to the United Nation SDGs. If ultra-ef cient approaches to sustaining human life and economic activity off-Earth can be adapted towards mean-ingfully solving problems on our planet, space exploration will haveyielded a manifold return on public investments and will therebybecome more sustainable not only technologically, but also politi-cally. The debate about the public bene ts of space travel and exploration is healthy and necessary, but in the eld of sustain- ability, space advocates may now have an opportunity to win thisdebate for a generation. References 1. Secure World Foundation. Space Sustainability A Practical Guide (Secure World Foundation, 2018). 2. Williamson, R. A. Assuring the sustainability of space activities. Space Policy 28,1 5 4 160 (2012). 3. Newman, C. J.  Williamson, M. Spa ce sustainability: reframing the debate. Space Policy 46,3 0 37 (2018). This paper explains the concept of space sustainability, and suggests to move itsdebate beyond Earth orbit . 4. Berliner, A. J. et al. Towards a biomanufactory on Mars. Front. Astron. Space Sci. 8,114 (2021). 5. Gdia, F. et al. MELISSA: a loop of interconnected bioreactors to develop life support in Space. J. Biotechnol. 99,3 1 9 330 (2002). 6 . K e l l e r ,R .J .e ta l .B i o l o g i c a l l y - b ased and physiochemical life sup- port and in situ resource utilization for exploration of the solarsystem reviewing the current state and de ning future devel- opment needs. Life11,8 4 41 41 (2021). 7. Nangle, S. N. et al. The case for biotech on Mars. Nat. Biotechnol. 38,4 0 1 407 (2020). 8. Lawrence, A. et al. The case for space environmentalism. Nat. Astron. 6,4 2 8 435 (2022). 9. Verseux, C. et al. Sustainable life support on Mars the potential roles of cyanobacteria. Int. J. Astrobiol. 15,6 592 (2016). 10. Matthews, J. J.  McMahon, S. Exogeoconservation: protecting geological heritage on celestial bodies. Acta Astronaut. 149, 5560 (2018). 11. United Nations Of ce for Outer Space Affairs. Guidelines for the Long-term Sustainability of Outer Space Activities ConferenceRoom Paper by the Chair of the Working Group on the Long-termSustainability of Outer Space Activities I. Context of the Guide ,v o l . V.18-04441 1 20 (Committee on the Peaceful Uses of Outer Space, 2018). This document highlights the roles of space activities in realizing the achievement of the United Nations Sustainable Development Goals . 12. United Nations. The 17 GoalsSustainable Development https: sdgs.un.orggoals (2023) 13. Montague, M. et al. The role of synthetic biology for in situ resource utilization (ISRU). Astrobiology 12, 1135 1142 (2012). 1 4 . C a s t e l e i n ,S .M .e ta l .I r o nc a nb em i c r o b i a l l ye x t r a c t e df r o mL u n a r and Martian regolith simulants and 3D printed into tough struc-tural materials. PLoS ONE 16,121 (2021). 15. Berliner, A. J. et al. Space bioprocess engineering on the horizon. Commun. Eng. 1, 13 (2022). A perspective paper highlighting the need to investigate space bioprocess engineering for futurespace missions, identifying key parameters to achieve this . 16. Averesch, N. J. H. et al. Biomanuf acturing for space-exploration  what to take and when to make. Preprints.Org 113https:doi.org 10.20944preprints202207.0329.v1 (2022). A brilliant outline of strategic approaches to integrate biomanufacturing into spacemissions .17. Nickerson, C. A., Medina-Colorado, A. A., Barrila, J., Poste, G.  Ott, C. M. A vision for space ight microbiology to enable human health and habitat sustainability. Nat. Microbiol. 7,4 7 1 474 (2022). 18. Averesch, N. J. H. Choice of microbial system for in-situ resource u t i l i z a t i o no nM a r s . Front. Astron. Space Sci. 8,17 (2021). 19. Dallbauman, L. A.  Finn, J. E. Adsorption processes in spacecraft environmental control and life support systems. Stud. Surf. Sci. Catal. 120 B ,4 5 5 471 (1999). 20. Vinayak, V. Chapter 20 - Algae as sustainable food in space mis- sions. In Biomass, Biofuels, Biochemicals: Circular Bioeconomy: Technologies for Biofuels and Biochemicals (Eds. Varjani, S., P a n d e y ,A . ,B h a s k a r ,T . ,M o h a n ,S .V .T s a n g ,D .C .W . )517540 (Elsevier, 2022). 21. International Energy Agency, I. Direct Air Capture A Key Tech- nology for Net Zero , Vol. 76 (International Energy Agency, 2022). 22. Hu, G., Li, Y., Ye, C., Liu, L.  Chen, X. Engineering microorganisms for enhanced CO 2sequestration. Trends Biotechnol. 37, 532547 (2019). 23. Voskian, S.  Hatton, T. A. Faradaic electro-swing reactive adsorption for CO 2capture. Energy Environ. Sci. 12, 3530 3547 (2019). 2 4 . M a p s t o n e ,L .J . ,L e i t e ,M .N . ,P u r t o n ,S . ,C r a w f o r d ,I .A .D a r t n e l l ,L . Cyanobacteria and microalgae in supporting human habitation onMars. Biotechnol. Adv. 59, 107946 (2022). 25. Detrell, G. Chlorella vulgaris photobioreactor for oxygen and food production on a Moon base potential and challenges. Front. Astron. Space Sci. 8,110 (2021). 26. Linne, D. L. et al. Waste management options for long-duration space missions: when to reject, reuse, or recycle. In Proc. Amer- ican Institute of Aeronautics and Astronautics 7th Symposium onSpace Resource Utilization ( E d s .B a l a s u b r a m a n i a m ,R .H e g d e ,U . G.) 1 9 (AIAA SciTech, 2014). 27. Schneider, W. F. et al. NASA environmental control and life sup- port technology development and maturation for exploration:2019 to 2020 overview. In Proc. 2020 International Conference on Environmental Systems 112 (ICES 2020). 28. Steinberg, L. M., Kronyak, R. E.  House, C. H. Coupling of anae- robic waste treatment to produce protein- and lipid-rich bacterialbiomass. Life Sci. Space Res. 15,3 242 (2017). 29. Yadav, A. N., Kour, D.  Ahluwalia, A. S. Soil and phytomicro- biomes for plant growth and soil fertility. Plant Sci. Today 8, 15 (2021). 30. Santos, L. F.  Olivares, F. L. Plant microbiome structure and benets for sustainable agriculture. Curr. Plant Biol. 26, 100198 (2021). 31. Langenfeld, N. J. et al. Optimizing nitrogen xation and recycling for food production in regenerative life support systems. Front. Astron. Space Sci. 8,113 (2021). 32. Woo, S. L.  Pepe, O. Microbial consortia: promising probiotics as plant biostimulants for sustainable agriculture. Front. Plant Sci. 9, 712 (2018). 33. Mitter, E. K., Tosi, M., Obregn, D., Dun eld, K. E.  Germida, J. J. Rethinking crop nutrition in times of modern microbiology: inno-vative biofertilizer technologies. Front. Sustain. Food Syst. 5, 123 (2021). 34. Porto de Souza Vandenberghe, L. et al. Potential applications of plant probiotic microorganisms in agriculture and forestry. AIMS Microbiol. 3,6 2 9 648 (2017). 35. Naseer, I. et al. Biofertilizers for Sustainable Agriculture and Environment Vol. 55 (Agrobios Indian Publications, 2019). 36. Monje, O. et al. Hardware validation of the advanced plant habitat on ISS: canopy photosynthesis in reduced gravity. Front. Plant Sci. 11,115 (2020).Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 837. Zea, L. Drug discovery and development in space. In Proc. 66th International Astronautical Congress, IAC-15-A1.8.1,x27627273282 (IAF, 2015). 38. Tanaka, H. et al. Improvement in the quality of hematopoietic prostaglandin D synthase crystals in a microgravity environment. J. Synchrotron Radiat. 18,8 891 (2011). 39. Pathak, Y. V., Araujo dos Santos, M.  Zea, L. Handbook of Space Pharmaceuticals (Springer, 2020). 40. Nickerson, C. A., Pellis, N. R.  Ott, C. M. Effect of Space ight on Human and Analogue Culture and Space ight Microbial Cells (Springer, 2016). 41. Amselem, S. Remote controlled autonomous microgravity lab platforms for drug research in space. Pharm. Res. 36, 183 (2019). 42. Du, B. et al. Evaluation of physical and chemical changes in pharmaceuticals own on space missions. AAPS J. 13, 299308 (2011). 4 3 . M c N u l t y ,M .J .e ta l .E v a l u a t i n g the cost of pharmaceutical pur- ication for a long-duration space exploration medical foundry. Front. Microbiol. 12,118 (2021). 4 4 . M e n e z e s ,A .A . ,C u m b e r s ,J . ,H o g a n ,J .A .A r k i n ,A .P .T o w a r d s synthetic biological approaches to resource utilization on spacemissions. J. R. Soc. Interface 12,2 0 1 4 0 7 1 5 .- 2 0( 2 0 1 4 ) . This paper reviews highlights the potential for synthetic biology in humanspace exploration and ISRU . 45. Chen, X., Li, C.  Liu, H. Enhanced recombinant protein produc- tion under special environmental stress. Front. Microbiol. 12, 111 (2021). 46. Turroni, S. et al. Gut microbiome and space travelers health: state of the art and possible proprebiotic strategies for long-termspace missions. Front. Physiol. 11,116 (2020). 47. Voorhies, A. A. et al. Study of the impact of long-duration space missions at the International Space Station on the astronautmicrobiome. Sci. Rep. 9,117 (2019). 4 8 . D eR o y ,K . ,M a r z o r a t i ,M . ,V a nd e nA b b e e l e ,P . ,V a nd eW i e l e ,T . Boon, N. Synthetic microbial ecosystems: an exciting tool tounderstand and apply microbial communities. Environ. Microbiol. 16,1 4 7 2 1481 (2014). 4 9 . M e n e z e s ,A .A . ,M o n t a g u e ,M .G . ,C u m b e r s ,J . ,H o g a n ,J .A . Arkin, A. P. Grand challenges in space synthetic biology. J. R. Soc. Interface 12,2 0 1 5 0 8 0 31 7( 2 0 1 5 ) . 50. Santomartino, R., Zea, L.  Cockell, C. S. The smallest space miners: principles of space biomining. Extremophiles 26,7 119 (2022). 51. Gumulya, Y., Zea, L.  Kaksonen, A. H. In situ resource utilisation: the potential for space biomining. Miner. Eng. 176, 107288 (2022). 52. Schippers, A. et al. Biomining: metal recovery from ores with microorganisms. Geobiotechnology. I. Adv. Biochem. Eng. 141, 147 (2013). 53. Volger, R. et al. Mining Moon  Mars with microbes: biological approaches to extract iron from Lunar and Martian regolith. Planet. Space Sci. 184,1 0 4 8 5 0( 2 0 2 0 ) . 54. Cockell, C. S.  Santomartino, R. Mining and microbiology for the solar system silicate and basalt economy. In Space Manufacturing Resources: Earth and Planetary Exploration Applications (eds Hessel, V., Stoudemire, J., Miyamoto, H.  Fisk, I. D.) 163 185 (Wiley, 2022). 5 5 . C o c k e l l ,C .S .e ta l .M i c r o b i a lly-enhanced vanadium mining and bioremediation under micro- and Mars gravity on the InternationalSpace Station. Front. Microbiol. 12, 663 (2021). 56. Cockell, C. S. et al. Space station biomining experiment demon- strates rare earth element extraction in microgravity and Mars gravity. Nat. Commun. 11,112 (2020). 57. Roberto, F. F.  Schippers, A. Progress in bioleaching: part B, applications of microbial processes by the minerals industries.Appl. Microbiol. Biotechnol. 106,5 9 1 3 5928 (2022).58. Franz, H. B., King, P. L.  Gaillard, F. Chapter 6 - Sulfur on Mars from the atmosphere to the core. In Volatiles in the Martian Crust (eds. Filiberto, J.  Schwenzer, S. P.) 119 183 (Elsevier Inc., 2019). 59. Santomartino, R. et al. No effect of microgravity and simulated Mars gravity on nal bacterial cell concentrations on the Interna- tional Space Station: applications to space bioproduction. Front. Microbiol. 11,115 (2020). 60. Castro-Alonso, M. J. et al. Microbially induced calcium carbonate precipitation (MICP) and its potential in bioconcrete: micro-biological and molecular concepts. Front. Mater. 6,115 (2019). 61. Beruto, D. T., Barberis, F.  Botter, R. Calcium carbonate binding mechanisms in the setting of calcium and calcium magnesium putty-limes. J. Cult. Herit. 6,2 5 3 260 (2005). 6 2 . O k y a y ,T .O . ,N g u y e n ,H .N . ,C a s t r o ,S .L .R o d r i g u e s ,D .F .C O 2 sequestration by ureolytic microbial consortia through microbially-induced calcite precipitation. Sci. Total Environ. 572, 671680 (2016). 6 3 . K a n g ,C .H . ,H a n ,S .H . ,S h i n ,Y . ,O h ,S .J .S o ,J .S .B i o r e m e d i a t i o n of Cd by microbially induced calcite precipitation. Appl. Biochem. Biotechnol. 172,1 9 2 9 1937 (2014). 64. Huang, Z., Jiang, D., Lu, L.  Ren, Z. J. Ambient CO 2capture and storage in bioelectrochemically mediated wastewater treatment.Bioresour. Technol. 215,3 8 0 385 (2016). 6 5 . K a h r e ,M .A . ,M u r p h y ,J .R .H a b e r l e ,R .M .M o d e l l i n gt h eM a r t i a n dust cycle and surface dust reservoirs with the NASA Ames gen-eral circulation model. J. Geophys. Res. Planets 111,125 (2006). 66. Dikshit, R., Gupta, N., Dey, A., Viswanathan, K.  Kumar, A. Microbial induced calcite precipitation can consolidate martianand lunar regolith simulants. PLoS ONE 17,119 (2022). 67. Liu, Y. et al. Control of lunar and martian dust-experimental insights from arti cial and natural cyanobacterial and algal crusts in the desert of Inner Mongolia, China. Astrobiology 8, 7586 (2008). 68. Rajasekar, A., Moy, C. K. S.  Wilkinson, S. MICP and advances towards eco-friendly and economical applications. IOP Conf. Ser. Earth Environ. Sci .78, 012016 (IOP Publishing, 2017). 69. Ganendra, G. et al. Formate oxidation-driven calcium carbonate precipitation by Methylocystis parvus OBBP. Appl. Environ. Microbiol. 80, 4659 4667 (2014). 70. Attias, N. et al. Mycelium bio-composites in industrial design and architecture: comparative revi ew and experimental analysis. J. Clean. Prod. 246, 119037 (2020). 71. Rothschild, L. J. et al. Myco-architecture off planet: Growing Sur- face Structures at Destination. NIAC 2018 Phase I Final Report. 2019-08-30T21:35:3600:00Z ( NASA Ames Research Center: Mountain View, CA, USA, 2018). 72. Shunk, G. K., Gomez, X. R., Kern, C.  Averesch, N. J. H. Growth of the radiotrophic fungus Cladosporium sphaerospermum aboard the International Space Station and effects of ionizing radiation. bioRxiv 2020.07.16.205534 (2022). 73. Lovley, D. R. Microbial energizers: fuel cells that keep on going. Microbe 1,3 2 3 329 (2006). 74. Hallenbeck, P. C.  Liu, Y. Recent advances in hydrogen produc- tion by photosynthetic bacteria. Int. J. Hydrog. Energy 41, 4446 4454 (2016). 75. Dahiya, S., Chatterjee, S., Sarkar, O.  Mohan, S. V. Renewable hydrogen production by dark-fermentation: current status, chal-lenges and perspectives. Bioresour. Technol. 321,1 2 4 3 5 4 (2021). 76. Kracke, F., Deutzmann, J. S., Gu, W.  Spormann, A. M. In situ electrochemical H 2production for ef cient and stable power-to- gas electromethanogenesis. 6194 6203 https:doi.org10.1039 d0gc01894e (2020). 77. Barton, L. L., Tomei-Torres, F. A., Xu, H.  Zocco, T. Chapter 7  Nanoparticles formed by microb ial metabolism of metals andPerspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 9minerals. In Nanomicrobiology Physiological and Environmental Characteristics ( e d sB a r t o n ,L .L . ,B a z y l i n s k i ,D .A .X u ,H . )1 4 5 176 (Springer, 2014). 7 8 . K r u y e r ,N .S . ,R e a l f f ,M .J . ,S u n ,W . ,G e n z a l e ,C .L .P e r a l t a - Y a h y a , P. Designing the bioproduction of Martian rocket resource utili- zation strategy. Nat. Commun. 12,114 (2021). 79. Lasseur, C.  Mergeay, M. Current and future ways to closed life support systems: virtual MELiSSA conference, Ghent (B) (3-5112020). A review. E c o l .E n g .E n v i r o n .P r o t . 1,2 535 (2021). This review shows results and goals of the ESA MELiSSA project,w h i c hp r o v i d e sa ne x c e l l e n te x a m p l eo fap r o j e c ta i m i n gt oachieve loop-closure in space . 80. Urbina, J. et al. A new approach to biomining: bioengineering surfaces for metal recovery from aqueous solutions. Sci. Rep. 9,111 (2019). 81. Valix, M. Bioleaching of electr onic waste: milestones and chal- lenges. In Current Developments in Biotechnology and Bioengi- neering: Solid Waste Management ( E d s .W o n g ,J .W .- C . ,T y a g i ,R . D.  Pandey, A.) 407 442 (Elsevier B.V., 2017). 8 2 . S r i c h a n d a n ,H . ,M o h a p a t r a ,R .K . ,P a r h i ,P .K .M i s h r a ,S .B i o - leaching approach for extraction of metal values from secondarysolid wastes: a critical review. Hydrometallurgy 189, 105122 (2019). 83. Shah, A. A., Hasan, F., Hameed, A.  Ahmed, S. Biological degra- dation of plastics: a comprehensive review. Biotechnol. Adv. 26, 246265 (2008). 84. Tiso, T. et al. The metabolic pot ential of plastics as biotechnolo- gical carbon sources review and targets for the future. Metab. Eng. 71,7 798 (2022). 85. Sadler, J. C.  Wallace, S. Micro bial synthesis of vanillin from waste poly(ethylene terephthalate). Green Chem .23,4661 18 (2021). 86. Billi, D., Gallego Fernandez, B., Fagliarone, C., Chiavarini, S.  R o t h s c h i l d ,L .J .E x p l o i t i n gap e r c hlorate-tolerant desert cyano- bacterium to support bacterial growth for in situ resource utiliza-tion on Mars. Int. J. Astrobiol. 20,2 935 (2021). 87. Duri, L. G. et al. The potential for Lunar and Martian Regolith simulants to sustain plant growth: a multidisciplinary overview. Front. Astron. Space Sci. 8,116 (2022). 88. Lehner, B. et al. Bacterial modi cation of Lunar And Martian Regolith for plant growth in life support systems. In Proc. 69th International Astronautical Congress, IAC-18,A1,7,7,x42645 17 (IAF, 2018). 89. Paul, A. L., Elardo, S. M.  Ferl, R. Plants grown in Apollo lunar regolith present stress-associated transcriptomes that informprospects for lunar exploration. Commun. Biol. 5,19 (2022). 90. Leito, A. L. Potential of Penicillium species in the bioremediation eld.Int. J. Environ. Res. Public Health 6,1 3 9 3 1417 (2009). 91. Matsumura, Y., Akahira-Moriya, A.  Sasaki-Mori, M. Bioremedia- tion of bisphenol-a polluted soil by Sphingomonas bisphenolicum ao1 and the microbial community existing in the soil. Biocontrol Sci.20,3 542 (2015). 9 2 . P r a k a s h ,D . ,G a b a n i ,P . ,C h a n d e l ,A .K . ,R o n e n ,Z .S i n g h ,O .V . Bioremediation: a genuine technol ogy to remediate radionuclides from the environment. Microb. Biotechnol. 6,3 4 9 360 (2013). 93. Horneck, G., Klaus, D. M.  Mancinelli, R. L. Space microbiology. Microbiol. Mol. Biol. Rev. 74,1 2 1 156 (2010). An essential review explaining the principles of spa ce microbiology, including the conditions that affects microbi al behaviour in space and their effects .94. Zea, L. et al. Experime nt veri cation test of the Artemis I Deep Space Radiation Genomics experiment. Acta Astronaut. 198, 702706 (2022). 95. NASA Interim Directive. Subject: Biological Planetary Protection for H u m a nM i s s i o n st oM a r s 16 (NASA Interim Directive, 2020). 96. Fahrion, J., Mastroleo, F., Dussap, C. G.  Leys, N. Use of photo- bioreactors in regenerative life support systems for human spaceexploration. Front. Microbiol. 12,114 (2021). 97. Cockell, C. S. Bridging the gap between microbial limits and extremes in space: space microbial biotechnology in the next 15years. Microb. Biotechnol. 15,2 941 2021. 98. Yang, J. et al. Microbiology of the built environment in spacecraft used for human ight. In Methods in Microbiology Vol. 45 (Eds. Gurtler, V.  Trevors, J. T.) 3 26, (Elsevier Ltd., 2018). 9 9 . Z e a ,L . ,S a n t aM a r i a ,S .R .R i c c o ,A .J .C u b e S a t sf o rm i c r o b i o l o g y and astrobiology research. In Cubesat Handbook (Eds. Cappelleti, C.  Battistini, S.) 147 162 (Elsevier Inc., 2021). 100. Zea, L. et al. Potential bio lm control strategies for extended space ight missions. Biolm2, 100026 1 20 (2020). 101. I. S. E. C. G. Benets Stemming from Space Exploration 122 (ESA Publication, 2013). 102. European Space Agency. Circular EconomyESA Business Appli- cations https:business.esa.intfundinginvitation-to-tender circular-economy (2021) 103. Schlieder, S. NASA Orbital Alchemy ChallengeNASA https: www.nasa.govorbital-alchemy-challenge (2022) 104. ISS National Laboratories. ISS National Lab Sustainability Chal- lenge: Beyond Plastics https:www.issnationallab.orgresearch- on-the-iss2022sustainabilitychallenge (2022) Acknowledgements Publication fees were covered by the United Kingdom Science and Technology Facilities Council under grant STV0005861. We arethankful to Devanshu Jha, who contributed to the white paper for theNASEM Decadal Survey on Biological and Physical Sciences Research inSpace 2023 2032, which in uenced this work. Author contributions R.S. conceived the paper s topic and coordinated the author st e a m .L . Z . gathered the authors team and coordinated the rst version of the manuscript. The author s names, except for R.S. and L.Z., have been listed in alphabetical order and contributed equally to the manuscript.R.S., L.Z., S.M., B.L., and Y.G. conceptualised the gures in this paper, and S.M. produced them. All authors listed have made a substantial,direct, and intellectual contribution to speci c sections of the work and approved it for publication. Competing interests The authors declare no competing interests. Additional information Correspondence and requests for materials should be addressed to Rosa Santomartino or Luis Zea. Peer review information Nature Communications thanks Mary Dunlop, Amor Menezes and the other, anonymous, reviewer(s) for their con-tribution to the peer review of this work. Reprints and permissions information is available at http:www.nature.comreprints Publisher s note Springer Nature remains neutral with regard to jur- isdictional claims in published maps and institutional af liations.Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 10Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing,adaptation, distribution and reproduction in any medium or format, aslong as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in thisarticle are included in the article s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is notincluded in the article s Creative Commons license and your intended use is not permitted by statutory re gulation or exceeds the permitted use, you will need to obtain permission directly from the copyrightholder. To view a copy of this license, visit http:creativecommons.org licensesby4.0 .  The Author(s) 2023Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 11",
+        "introduction": null,
+        "conclusion": "s With this work, we aimed to advocate the urgency of sustainable approaches for human space exploration, and the essential rolemicrobial biotechnologies could play in this. It has been discussedhow microbial biotechnologies may support several processes that, in turn, can help decrease supply chain dependency (from Earth) on long-duration deep-space exploration missions to eventuallyenable human footholds and settlements across the solar system. Inparallel, several of these microbially-supported processes may alsohelp close the loop on LSS and other systems, which can preserveresources and extra-terrestrial environments. These two aspects,independently and together, enable space exploration in a sus-tainable fashion. T op r o v i d ea p p r o p r i a t ec o n d i t i o n sf o rt h em a t u r a t i o no fn a m e d biotechnologies and to open the eld to a wider community, research and innovation are needed. Preliminary studies should be supported inlaboratories on Earth, simulation platforms, and in LEO, and full investigations in cis-Lunar space and on the Lunar surface. Augmenting existing space-based facilities to increase the capacity for spaceexperiments, in terms of sample replicates and experimental condi-tions, should also be considered to improve the impact of the pre-liminary studies. Funding should take into account the high cost (and Fig. 2  Schematic representation of current technology readiness level (TRL) for the considered biotechnologies. Arrows indicate the speci c research and development needed to advance the TRL of each technology. TRL is de ned as indicated by NASA.Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 7time) of genetic engineering and synthetic biology, on which these technologies will likely heavily rely. Finally, the potential of these technologies for terrestrial ben- ets has been discussed, with speci c reference to the United Nation SDGs. If ultra-ef cient approaches to sustaining human life and economic activity off-Earth can be adapted towards mean-ingfully solving problems on our planet, space exploration will haveyielded a manifold return on public investments and will therebybecome more sustainable not only technologically, but also politi-cally. The debate about the public bene ts of space travel and exploration is healthy and necessary, but in the eld of sustain- ability, space advocates may now have an opportunity to win thisdebate for a generation. References 1. Secure World Foundation. Space Sustainability A Practical Guide (Secure World Foundation, 2018). 2. Williamson, R. A. Assuring the sustainability of space activities. Space Policy 28,1 5 4 160 (2012). 3. Newman, C. J.  Williamson, M. Spa ce sustainability: reframing the debate. Space Policy 46,3 0 37 (2018). This paper explains the concept of space sustainability, and suggests to move itsdebate beyond Earth orbit . 4. Berliner, A. J. et al. Towards a biomanufactory on Mars. Front. Astron. Space Sci. 8,114 (2021). 5. Gdia, F. et al. MELISSA: a loop of interconnected bioreactors to develop life support in Space. J. Biotechnol. 99,3 1 9 330 (2002). 6 . K e l l e r ,R .J .e ta l .B i o l o g i c a l l y - b ased and physiochemical life sup- port and in situ resource utilization for exploration of the solarsystem reviewing the current state and de ning future devel- opment needs. Life11,8 4 41 41 (2021). 7. Nangle, S. N. et al. The case for biotech on Mars. Nat. Biotechnol. 38,4 0 1 407 (2020). 8. Lawrence, A. et al. The case for space environmentalism. Nat. Astron. 6,4 2 8 435 (2022). 9. Verseux, C. et al. Sustainable life support on Mars the potential roles of cyanobacteria. Int. J. Astrobiol. 15,6 592 (2016). 10. Matthews, J. J.  McMahon, S. Exogeoconservation: protecting geological heritage on celestial bodies. Acta Astronaut. 149, 5560 (2018). 11. United Nations Of ce for Outer Space Affairs. Guidelines for the Long-term Sustainability of Outer Space Activities ConferenceRoom Paper by the Chair of the Working Group on the Long-termSustainability of Outer Space Activities I. Context of the Guide ,v o l . V.18-04441 1 20 (Committee on the Peaceful Uses of Outer Space, 2018). This document highlights the roles of space activities in realizing the achievement of the United Nations Sustainable Development Goals . 12. United Nations. The 17 GoalsSustainable Development https: sdgs.un.orggoals (2023) 13. Montague, M. et al. The role of synthetic biology for in situ resource utilization (ISRU). Astrobiology 12, 1135 1142 (2012). 1 4 . C a s t e l e i n ,S .M .e ta l .I r o nc a nb em i c r o b i a l l ye x t r a c t e df r o mL u n a r and Martian regolith simulants and 3D printed into tough struc-tural materials. PLoS ONE 16,121 (2021). 15. Berliner, A. J. et al. Space bioprocess engineering on the horizon. Commun. Eng. 1, 13 (2022). A perspective paper highlighting the need to investigate space bioprocess engineering for futurespace missions, identifying key parameters to achieve this . 16. Averesch, N. J. H. et al. Biomanuf acturing for space-exploration  what to take and when to make. Preprints.Org 113https:doi.org 10.20944preprints202207.0329.v1 (2022). A brilliant outline of strategic approaches to integrate biomanufacturing into spacemissions .17. Nickerson, C. A., Medina-Colorado, A. A., Barrila, J., Poste, G.  Ott, C. M. A vision for space ight microbiology to enable human health and habitat sustainability. Nat. Microbiol. 7,4 7 1 474 (2022). 18. Averesch, N. J. H. Choice of microbial system for in-situ resource u t i l i z a t i o no nM a r s . Front. Astron. Space Sci. 8,17 (2021). 19. Dallbauman, L. A.  Finn, J. E. Adsorption processes in spacecraft environmental control and life support systems. Stud. Surf. Sci. Catal. 120 B ,4 5 5 471 (1999). 20. Vinayak, V. Chapter 20 - Algae as sustainable food in space mis- sions. In Biomass, Biofuels, Biochemicals: Circular Bioeconomy: Technologies for Biofuels and Biochemicals (Eds. Varjani, S., P a n d e y ,A . ,B h a s k a r ,T . ,M o h a n ,S .V .T s a n g ,D .C .W . )517540 (Elsevier, 2022). 21. International Energy Agency, I. Direct Air Capture A Key Tech- nology for Net Zero , Vol. 76 (International Energy Agency, 2022). 22. Hu, G., Li, Y., Ye, C., Liu, L.  Chen, X. Engineering microorganisms for enhanced CO 2sequestration. Trends Biotechnol. 37, 532547 (2019). 23. Voskian, S.  Hatton, T. A. Faradaic electro-swing reactive adsorption for CO 2capture. Energy Environ. Sci. 12, 3530 3547 (2019). 2 4 . M a p s t o n e ,L .J . ,L e i t e ,M .N . ,P u r t o n ,S . ,C r a w f o r d ,I .A .D a r t n e l l ,L . Cyanobacteria and microalgae in supporting human habitation onMars. Biotechnol. Adv. 59, 107946 (2022). 25. Detrell, G. Chlorella vulgaris photobioreactor for oxygen and food production on a Moon base potential and challenges. Front. Astron. Space Sci. 8,110 (2021). 26. Linne, D. L. et al. Waste management options for long-duration space missions: when to reject, reuse, or recycle. In Proc. Amer- ican Institute of Aeronautics and Astronautics 7th Symposium onSpace Resource Utilization ( E d s .B a l a s u b r a m a n i a m ,R .H e g d e ,U . G.) 1 9 (AIAA SciTech, 2014). 27. Schneider, W. F. et al. NASA environmental control and life sup- port technology development and maturation for exploration:2019 to 2020 overview. In Proc. 2020 International Conference on Environmental Systems 112 (ICES 2020). 28. Steinberg, L. M., Kronyak, R. E.  House, C. H. Coupling of anae- robic waste treatment to produce protein- and lipid-rich bacterialbiomass. Life Sci. Space Res. 15,3 242 (2017). 29. Yadav, A. N., Kour, D.  Ahluwalia, A. S. Soil and phytomicro- biomes for plant growth and soil fertility. Plant Sci. Today 8, 15 (2021). 30. Santos, L. F.  Olivares, F. L. Plant microbiome structure and benets for sustainable agriculture. Curr. Plant Biol. 26, 100198 (2021). 31. Langenfeld, N. J. et al. Optimizing nitrogen xation and recycling for food production in regenerative life support systems. Front. Astron. Space Sci. 8,113 (2021). 32. Woo, S. L.  Pepe, O. Microbial consortia: promising probiotics as plant biostimulants for sustainable agriculture. Front. Plant Sci. 9, 712 (2018). 33. Mitter, E. K., Tosi, M., Obregn, D., Dun eld, K. E.  Germida, J. J. Rethinking crop nutrition in times of modern microbiology: inno-vative biofertilizer technologies. Front. Sustain. Food Syst. 5, 123 (2021). 34. Porto de Souza Vandenberghe, L. et al. Potential applications of plant probiotic microorganisms in agriculture and forestry. AIMS Microbiol. 3,6 2 9 648 (2017). 35. Naseer, I. et al. Biofertilizers for Sustainable Agriculture and Environment Vol. 55 (Agrobios Indian Publications, 2019). 36. Monje, O. et al. Hardware validation of the advanced plant habitat on ISS: canopy photosynthesis in reduced gravity. Front. Plant Sci. 11,115 (2020).Perspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 837. Zea, L. Drug discovery and development in space. In Proc. 66th International Astronautical Congress, IAC-15-A1.8.1,x27627273282 (IAF, 2015). 38. Tanaka, H. et al. Improvement in the quality of hematopoietic prostaglandin D synthase crystals in a microgravity environment. J. Synchrotron Radiat. 18,8 891 (2011). 39. Pathak, Y. V., Araujo dos Santos, M.  Zea, L. Handbook of Space Pharmaceuticals (Springer, 2020). 40. Nickerson, C. A., Pellis, N. R.  Ott, C. M. Effect of Space ight on Human and Analogue Culture and Space ight Microbial Cells (Springer, 2016). 41. Amselem, S. Remote controlled autonomous microgravity lab platforms for drug research in space. Pharm. Res. 36, 183 (2019). 42. Du, B. et al. Evaluation of physical and chemical changes in pharmaceuticals own on space missions. AAPS J. 13, 299308 (2011). 4 3 . M c N u l t y ,M .J .e ta l .E v a l u a t i n g the cost of pharmaceutical pur- ication for a long-duration space exploration medical foundry. Front. Microbiol. 12,118 (2021). 4 4 . M e n e z e s ,A .A . ,C u m b e r s ,J . ,H o g a n ,J .A .A r k i n ,A .P .T o w a r d s synthetic biological approaches to resource utilization on spacemissions. J. R. Soc. Interface 12,2 0 1 4 0 7 1 5 .- 2 0( 2 0 1 4 ) . This paper reviews highlights the potential for synthetic biology in humanspace exploration and ISRU . 45. Chen, X., Li, C.  Liu, H. Enhanced recombinant protein produc- tion under special environmental stress. Front. Microbiol. 12, 111 (2021). 46. Turroni, S. et al. Gut microbiome and space travelers health: state of the art and possible proprebiotic strategies for long-termspace missions. Front. Physiol. 11,116 (2020). 47. Voorhies, A. A. et al. Study of the impact of long-duration space missions at the International Space Station on the astronautmicrobiome. Sci. Rep. 9,117 (2019). 4 8 . D eR o y ,K . ,M a r z o r a t i ,M . ,V a nd e nA b b e e l e ,P . ,V a nd eW i e l e ,T . Boon, N. Synthetic microbial ecosystems: an exciting tool tounderstand and apply microbial communities. Environ. Microbiol. 16,1 4 7 2 1481 (2014). 4 9 . M e n e z e s ,A .A . ,M o n t a g u e ,M .G . ,C u m b e r s ,J . ,H o g a n ,J .A . Arkin, A. P. Grand challenges in space synthetic biology. J. R. Soc. Interface 12,2 0 1 5 0 8 0 31 7( 2 0 1 5 ) . 50. Santomartino, R., Zea, L.  Cockell, C. S. The smallest space miners: principles of space biomining. Extremophiles 26,7 119 (2022). 51. Gumulya, Y., Zea, L.  Kaksonen, A. H. In situ resource utilisation: the potential for space biomining. Miner. Eng. 176, 107288 (2022). 52. Schippers, A. et al. Biomining: metal recovery from ores with microorganisms. Geobiotechnology. I. Adv. Biochem. Eng. 141, 147 (2013). 53. Volger, R. et al. Mining Moon  Mars with microbes: biological approaches to extract iron from Lunar and Martian regolith. Planet. Space Sci. 184,1 0 4 8 5 0( 2 0 2 0 ) . 54. Cockell, C. S.  Santomartino, R. Mining and microbiology for the solar system silicate and basalt economy. In Space Manufacturing Resources: Earth and Planetary Exploration Applications (eds Hessel, V., Stoudemire, J., Miyamoto, H.  Fisk, I. D.) 163 185 (Wiley, 2022). 5 5 . C o c k e l l ,C .S .e ta l .M i c r o b i a lly-enhanced vanadium mining and bioremediation under micro- and Mars gravity on the InternationalSpace Station. Front. Microbiol. 12, 663 (2021). 56. Cockell, C. S. et al. Space station biomining experiment demon- strates rare earth element extraction in microgravity and Mars gravity. Nat. Commun. 11,112 (2020). 57. Roberto, F. F.  Schippers, A. Progress in bioleaching: part B, applications of microbial processes by the minerals industries.Appl. Microbiol. Biotechnol. 106,5 9 1 3 5928 (2022).58. Franz, H. B., King, P. L.  Gaillard, F. Chapter 6 - Sulfur on Mars from the atmosphere to the core. In Volatiles in the Martian Crust (eds. Filiberto, J.  Schwenzer, S. P.) 119 183 (Elsevier Inc., 2019). 59. Santomartino, R. et al. No effect of microgravity and simulated Mars gravity on nal bacterial cell concentrations on the Interna- tional Space Station: applications to space bioproduction. Front. Microbiol. 11,115 (2020). 60. Castro-Alonso, M. J. et al. Microbially induced calcium carbonate precipitation (MICP) and its potential in bioconcrete: micro-biological and molecular concepts. Front. Mater. 6,115 (2019). 61. Beruto, D. T., Barberis, F.  Botter, R. Calcium carbonate binding mechanisms in the setting of calcium and calcium magnesium putty-limes. J. Cult. Herit. 6,2 5 3 260 (2005). 6 2 . O k y a y ,T .O . ,N g u y e n ,H .N . ,C a s t r o ,S .L .R o d r i g u e s ,D .F .C O 2 sequestration by ureolytic microbial consortia through microbially-induced calcite precipitation. Sci. Total Environ. 572, 671680 (2016). 6 3 . K a n g ,C .H . ,H a n ,S .H . ,S h i n ,Y . ,O h ,S .J .S o ,J .S .B i o r e m e d i a t i o n of Cd by microbially induced calcite precipitation. Appl. Biochem. Biotechnol. 172,1 9 2 9 1937 (2014). 64. Huang, Z., Jiang, D., Lu, L.  Ren, Z. J. Ambient CO 2capture and storage in bioelectrochemically mediated wastewater treatment.Bioresour. Technol. 215,3 8 0 385 (2016). 6 5 . K a h r e ,M .A . ,M u r p h y ,J .R .H a b e r l e ,R .M .M o d e l l i n gt h eM a r t i a n dust cycle and surface dust reservoirs with the NASA Ames gen-eral circulation model. J. Geophys. Res. Planets 111,125 (2006). 66. Dikshit, R., Gupta, N., Dey, A., Viswanathan, K.  Kumar, A. Microbial induced calcite precipitation can consolidate martianand lunar regolith simulants. PLoS ONE 17,119 (2022). 67. Liu, Y. et al. Control of lunar and martian dust-experimental insights from arti cial and natural cyanobacterial and algal crusts in the desert of Inner Mongolia, China. Astrobiology 8, 7586 (2008). 68. Rajasekar, A., Moy, C. K. S.  Wilkinson, S. MICP and advances towards eco-friendly and economical applications. IOP Conf. Ser. Earth Environ. Sci .78, 012016 (IOP Publishing, 2017). 69. Ganendra, G. et al. Formate oxidation-driven calcium carbonate precipitation by Methylocystis parvus OBBP. Appl. Environ. Microbiol. 80, 4659 4667 (2014). 70. Attias, N. et al. Mycelium bio-composites in industrial design and architecture: comparative revi ew and experimental analysis. J. Clean. Prod. 246, 119037 (2020). 71. Rothschild, L. J. et al. Myco-architecture off planet: Growing Sur- face Structures at Destination. NIAC 2018 Phase I Final Report. 2019-08-30T21:35:3600:00Z ( NASA Ames Research Center: Mountain View, CA, USA, 2018). 72. Shunk, G. K., Gomez, X. R., Kern, C.  Averesch, N. J. H. Growth of the radiotrophic fungus Cladosporium sphaerospermum aboard the International Space Station and effects of ionizing radiation. bioRxiv 2020.07.16.205534 (2022). 73. Lovley, D. R. Microbial energizers: fuel cells that keep on going. Microbe 1,3 2 3 329 (2006). 74. Hallenbeck, P. C.  Liu, Y. Recent advances in hydrogen produc- tion by photosynthetic bacteria. Int. J. Hydrog. Energy 41, 4446 4454 (2016). 75. Dahiya, S., Chatterjee, S., Sarkar, O.  Mohan, S. V. Renewable hydrogen production by dark-fermentation: current status, chal-lenges and perspectives. Bioresour. Technol. 321,1 2 4 3 5 4 (2021). 76. Kracke, F., Deutzmann, J. S., Gu, W.  Spormann, A. M. In situ electrochemical H 2production for ef cient and stable power-to- gas electromethanogenesis. 6194 6203 https:doi.org10.1039 d0gc01894e (2020). 77. Barton, L. L., Tomei-Torres, F. A., Xu, H.  Zocco, T. Chapter 7  Nanoparticles formed by microb ial metabolism of metals andPerspective https:doi.org10.1038s41467-023-37070-2 Nature Communications  (2023) 14:1391 9minerals. In Nanomicrobiology Physiological and Environmental Characteristics ( e d sB a r t o n ,L .L . ,B a z y l i n s k i ,D .A .X u ,H . )1 4 5 176 (Springer, 2014). 7 8 . K r u y e r ,N .S . ,R e a l f f ,M .J . ,S u n ,W . ,G e n z a l e ,C .L .P e r a l t a - Y a h y a , P. Designing the bioproduction of Martian rocket resource utili- zation strategy. Nat. Commun. 12,114 (2021). 79. Lasseur, C.  Mergeay, M. Current and future ways to closed life support systems: virtual MELiSSA conference, Ghent (B) (3-5112020). A review. E c o l .E n g .E n v i r o n .P r o t . 1,2 535 (2021). This review shows results and goals of the ESA MELiSSA project,w h i c hp r o v i d e sa ne x c e l l e n te x a m p l eo fap r o j e c ta i m i n gt oachieve loop-closure in space . 80. Urbina, J. et al. A new approach to biomining: bioengineering surfaces for metal recovery from aqueous solutions. Sci. Rep. 9,111 (2019). 81. Valix, M. Bioleaching of electr onic waste: milestones and chal- lenges. In Current Developments in Biotechnology and Bioengi- neering: Solid Waste Management ( E d s .W o n g ,J .W .- C . ,T y a g i ,R . D.  Pandey, A.) 407 442 (Elsevier B.V., 2017). 8 2 . S r i c h a n d a n ,H . ,M o h a p a t r a ,R .K . ,P a r h i ,P .K .M i s h r a ,S .B i o - leaching approach for extraction of metal values from secondarysolid wastes: a critical review. Hydrometallurgy 189, 105122 (2019). 83. Shah, A. A., Hasan, F., Hameed, A.  Ahmed, S. Biological degra- dation of plastics: a comprehensive review. Biotechnol. Adv. 26, 246265 (2008). 84. Tiso, T. et al. The metabolic pot ential of plastics as biotechnolo- gical carbon sources review and targets for the future. Metab. Eng. 71,7 798 (2022). 85. Sadler, J. C.  Wallace, S. Micro bial synthesis of vanillin from waste poly(ethylene terephthalate). Green Chem .23,4661 18 (2021). 86. Billi, D., Gallego Fernandez, B., Fagliarone, C., Chiavarini, S.  R o t h s c h i l d ,L .J .E x p l o i t i n gap e r c hlorate-tolerant desert cyano- bacterium to support bacterial growth for in situ resource utiliza-tion on Mars. Int. J. Astrobiol. 20,2 935 (2021). 87. Duri, L. G. et al. The potential for Lunar and Martian Regolith simulants to sustain plant growth: a multidisciplinary overview. Front. Astron. Space Sci. 8,116 (2022). 88. Lehner, B. et al. Bacterial modi cation of Lunar And Martian Regolith for plant growth in life support systems. In Proc. 69th International Astronautical Congress, IAC-18,A1,7,7,x42645 17 (IAF, 2018). 89. Paul, A. L., Elardo, S. M.  Ferl, R. Plants grown in Apollo lunar regolith present stress-associated transcriptomes that informprospects for lunar exploration. Commun. Biol. 5,19 (2022). 90. Leito, A. L. Potential of Penicillium species in the bioremediation eld.Int. J. Environ. Res. Public Health 6,1 3 9 3 1417 (2009). 91. Matsumura, Y., Akahira-Moriya, A.  Sasaki-Mori, M. Bioremedia- tion of bisphenol-a polluted soil by Sphingomonas bisphenolicum ao1 and the microbial community existing in the soil. Biocontrol Sci.20,3 542 (2015). 9 2 . P r a k a s h ,D . ,G a b a n i ,P . ,C h a n d e l ,A .K . ,R o n e n ,Z .S i n g h ,O .V . Bioremediation: a genuine technol ogy to remediate radionuclides from the environment. Microb. Biotechnol. 6,3 4 9 360 (2013). 93. Horneck, G., Klaus, D. M.  Mancinelli, R. L. Space microbiology. Microbiol. Mol. Biol. Rev. 74,1 2 1 156 (2010). An essential review explaining the principles of spa ce microbiology, including the conditions that affects microbi al behaviour in space and their effects .94. Zea, L. et al. Experime nt veri cation test of the Artemis I Deep Space Radiation Genomics experiment. Acta Astronaut. 198, 702706 (2022). 95. NASA Interim Directive. Subject: Biological Planetary Protection for H u m a nM i s s i o n st oM a r s 16 (NASA Interim Directive, 2020). 96. Fahrion, J., Mastroleo, F., Dussap, C. G.  Leys, N. Use of photo- bioreactors in regenerative life support systems for human spaceexploration. Front. Microbiol. 12,114 (2021). 97. Cockell, C. S. Bridging the gap between microbial limits and extremes in space: space microbial biotechnology in the next 15years. Microb. Biotechnol. 15,2 941 2021. 98. Yang, J. et al. Microbiology of the built environment in spacecraft used for human ight. In",
+        "images": [
+            {
+                "filename": "Figure_1.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_2.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_3.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_4.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_5.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_6.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_7.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_8.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_9.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_10.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_11.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_12.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_13.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_14.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_15.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_16.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_17.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_18.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_19.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_20.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_21.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_22.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_23.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_24.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_25.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_26.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_27.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_28.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_29.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_30.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_31.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_32.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_33.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_34.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_35.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_36.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_37.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_38.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_39.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_40.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_41.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_42.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_43.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_44.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_45.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_46.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_47.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_48.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_49.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_50.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_51.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_52.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_53.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_54.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_55.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_56.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_57.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_58.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_59.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_60.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_61.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_62.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_63.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_64.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_65.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_66.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_67.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_68.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_69.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_70.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_71.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_72.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_73.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_74.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_75.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_76.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_77.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_78.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_79.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_80.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_81.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_82.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_83.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_84.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_85.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_86.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_87.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_88.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_89.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_90.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_91.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_92.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_93.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_94.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_95.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_96.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_97.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_98.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_99.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_100.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_101.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_102.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_103.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_104.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_105.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_106.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_107.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_108.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_109.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_110.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_111.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_112.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_113.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_114.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_115.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_116.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_117.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_118.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_119.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_120.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_121.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_122.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_123.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_124.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_125.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_126.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_127.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_128.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_129.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_130.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_131.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_132.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_133.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_134.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_135.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_136.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_137.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_138.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_139.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_140.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_141.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_142.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_143.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_144.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_145.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_146.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_147.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_148.jpg",
+                "caption": "No caption available"
+            }
+        ]
+    }
+]

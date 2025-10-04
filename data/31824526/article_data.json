@@ -1,0 +1,13 @@
+[
+    {
+        "pmid": "31824526",
+        "title": "The Plant Health Monitoring System of the EDEN ISS Space Greenhouse in Antarctica During the 2018 Experiment Phase.",
+        "year": "2019",
+        "journal": "Front Plant Sci",
+        "abstract": "The EDEN ISS project has the objective to test key technologies and processes for higher plant cultivation with a focus on their application to long duration spaceflight. A mobile plant production facility was designed and constructed by an international consortium and deployed to the German Antarctic Neumayer Station III. Future astronaut crews, even if well-trained and provided with detailed procedures, cannot be expected to have the competencies needed to deal with all situations that will arise during a mission. Future space crews, as they are today, will be supported by expert backrooms on the ground. For future space-based greenhouses, monitoring the crops and the plant growth system increases system reliability and decreases the crew time required to maintain them. The EDEN ISS greenhouse incorporates a Plant Health Monitoring System to provide remote support for plant status assessment and early detection of plant stress or disease. The EDEN ISS greenhouse has the capability to automatically capture and distribute images from its suite of 32 high-definition color cameras. Collected images are transferred over a satellite link to the EDEN ISS Mission Control Center in Bremen and to project participants worldwide. Upon reception, automatic processing software analyzes the images for anomalies, evaluates crop performance, and predicts the days remaining until harvest of each crop tray. If anomalies or sub-optimal performance is detected, the image analysis system generates automatic warnings to the agronomist team who then discuss, communicate, or implement countermeasure options. A select number of Dual Wavelength Spectral Imagers have also been integrated into the facility for plant health monitoring to detect potential plant stress before it can be seen on the images taken by the high-definition color cameras. These imagers and processing approaches are derived from traditional space-based imaging techniques but permit new discoveries to be made in a facility like the EDEN ISS greenhouse in which, essentially, every photon of input and output can be controlled and studied. This paper presents a description of the EDEN ISS Plant Health Monitoring System, basic image analyses, and a summary of the results from the initial year of Antarctic operations.",
+        "full_text": "",
+        "introduction": null,
+        "conclusion": null,
+        "images": []
+    }
+]

@@ -1,0 +1,3194 @@
+[
+    {
+        "pmid": "35449136",
+        "title": "Emergence of novel cephalopod gene regulation and expression through large-scale genome reorganization.",
+        "year": "2022",
+        "journal": "Nat Commun",
+        "abstract": "Coleoid cephalopods (squid, cuttlefish, octopus) have the largest nervous system among invertebrates that together with many lineage-specific morphological traits enables complex behaviors. The genomic basis underlying these innovations remains unknown. Using comparative and functional genomics in the model squid Euprymna scolopes, we reveal the unique genomic, topological, and regulatory organization of cephalopod genomes. We show that coleoid\u00a0cephalopod genomes have been extensively restructured compared to other animals, leading to the emergence of hundreds of tightly linked and evolutionary unique gene clusters (microsyntenies). Such novel microsyntenies correspond to topological compartments with a distinct regulatory structure and contribute to complex expression patterns. In particular, we identify a set of microsyntenies associated with cephalopod innovations (MACIs) broadly enriched in cephalopod nervous system expression. We posit that the emergence of MACIs was instrumental to cephalopod nervous system evolution and propose that microsyntenic profiling will be central to understanding cephalopod innovations.",
+        "full_text": "ARTICLE Emergence of novel cephalopod gene regulation and expression through large-scale genome reorganization Hannah Schmidbaur1,9, Akane Kawaguchi2,9, Tereza Clarence3, Xiao Fu3, Oi Pui Hoang1, Bob Zimmermann1, Elena A. Ritschard1,4, Anton Weissenbacher5, Jamie S. Foster6, Spencer V. Nyholm7, Paul A. Bates3, Caroline B. Albertin8, Elly Tanaka2 Oleg Simakov1 Coleoid cephalopods (squid, cuttle sh, octopus) have the largest nervous system among invertebrates that together with many lineage-speci c morphological traits enables complex behaviors. The genomic basis underlying these innovations remains unknown. Using com-parative and functional genomics in the model squid Euprymna scolopes , we reveal the unique genomic, topological, and regulatory organization of cephalopod genomes. We show thatcoleoid cephalopod genomes have been extensively restructured compared to other animals,leading to the emergence of hundreds of tightly linked and evolutionary unique gene clusters(microsyntenies). Such novel microsyntenies correspond to topological compartments with adistinct regulatory structure and contribute to complex expression patterns. In particular, weidentify a set of microsyntenies associated with cephalopod innovations (MACIs) broadlyenriched in cephalopod nervous system expression. We posit that the emergence of MACIswas instrumental to cephalopod nervous system evolution and propose that microsyntenicproling will be central to understanding cephalopod innovations.https:doi.org10.1038s41467-022-29694-7 OPEN 1Department of Neurosciences and Developmental Biology, University of Vienna, Vienna, Austria.2Institute for Molecular Pathology, Vienna, Austria. 3Biomolecular Modelling Laboratory, The Francis Crick Institute, London, UK.4Department of Biology and Evolution of Marine Organisms, Stazione Zoologica Anton Dohrn, Naples, Italy.5Vienna Zoo, Maxingstrae 13b, 1130 Vienna, Austria.6Department of Microbiology and Cell Science, University of Florida, Space Life Science Lab, Merritt Island, FL, USA.7Department of Molecular and Cell Biology, University of Connecticut, Storrs, CT, USA.8Bell Center for Regenerative Biology and Tissue Engineering, Marine Biological Laboratory, Woods Hole, MA, USA.9These authors contributed equally: Hannah Schmidbaur, Akane Kawaguchi.email: calbertinmbl.edu ;elly.tanakaimp.ac.at ;oleg.simakovunivie.ac.at NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunications 11234567890():,;Cephalopods have the largest invertebrate nervous systems and possess many lineage-speci c adaptations such as rapid adaptive camou age, arms with suckers and camera- type eyes. Many cephalopod characteristics evolved convergentlyto those of vertebrates, which makes them an attractive system to study the genetic basis of wide-scale organismal innovations and the pathways behind their evolution. On a genomic level, the emergence of novel genes, extensive gene duplications, and wide-ranging RNA editing have been described in cephalopod genomes 1.E x p a n s i o n so fg e n ef a m i l i e s such as C2H2s, Protocadherins, and GPCRs, and extensive RNA editing allowed the diversi cation of protein-coding transcripts in the nervous system and is proposed to have played an important role in its evolution. While similar inno- vations are known from vertebrate genomes, the mechanisms driving the evolution of these features are different: vertebrates went through several rounds of whole-genome duplications that produced large sets of multi-copy genes and the diversi - cation of their functions, there is no indication for similar events in cephalopods13. In contrast, it has been suggested that the coleoid cephalopod (squids, cuttle sh, octopus) lineage went through large-scale genome reorganization2,3. A property of metazoan genomes is that local gene order or microsynteny is conserved between even distantly related species46. This conservation is supported by functional studies of regulatory constraints, shown in genomic regulatory blocks (GRBs)4,5,7, as well as co-expression of neighboring genes in tissues or cell types8. Early genome assemblies in several coleoids indicate that local gene order has been greatly dis- rupted, breaking ancient microsyntenies and bringing pre- viously unlinked genes together2,3. This event, potentially at a whole-genome scale, could have affected hundreds of gene families, disrupting the order of genes in comparison to the last common ancestor of coleoid cephalopods and other molluscs. The extent of this event is dif cult to estimate due to the lack of chromosomal-scale assemblies in cephalopods. To begin to understand the extent of the genome reorganization and itsimpact on cephalopod genome biology and evolution, we study the emerging model species Euprymna scolopes (Hawaiian bobtail squid). This species has been at the center of symbiosis research for over 30 years 9,10, but is also an attractive model system for evolution and development research due to its small adult size, large egg clutches, and relative ease of culture. To reconstruct the regulatory landscape in the E. scolopes genome, we applied chromosomal conformation capture (Hi-C) and open chromatin pro ling techniques (ATAC-seq) as well as collected additional expression data. Hi-C allowed us to both improve the previously published E. scolopes genome assembly as well as to capture the three-dimensional organization of the genome. Using comparative genomic approaches, we describe t h eg l o b a ln a t u r eo ft h eg e n o m er e s h u f ing in coleoid cepha- lopods and demonstrate the emergence of many microsyntenic regions that were previously unlinked in other species. Our data also reveals interactions between distant genomic loci (the topological organization of the genome) shedding light on the three-dimensional organization of the E. scolopes genome, as well as identifying genes located in regulatory loops and topologically associating domains (TADs). Our open chromatin data reveals regions accessible to transcription factors and thus potentially constituting regulatory elements. Together, these data allow us to gain insights into the impact of evolutionary changes in gene linkages and the emergence of novel gene regulation. This study provides the basis for the understanding of the evolution of cephalopod genomes and possible implica- tions on morphological novelties in this clade.Results and discussion The impact of a large-scale genome reorganization on the coleoid cephalopod genome . Linkage information from chromo- some conformation capture allowed us to reconstruct 46 chromo-somal scaffolds in E. scolopes (Methods , Supplementary Notes 1 and 2, Supplementary Fig. 1a, b) based on the published assembly 3. We then compared the order of genes with orthologs found in another 24 animal species ranging from sponges to vertebrates, which allowed us to reconstruct microsyntenic blocks shared between different clades ( Methods , Supplementary Note 3, Sup- plementary Fig. 2a, Supplementary Data 1). Brie y, we de ne microsyntenic blocks as at least three or more co-occurring ortho- logous genes with up to ve intervening genes with no constraints on their collinearity. This de nition of microsynteny yields the fewest false-positive blocks (compared to just pairs of genes) while pro- viding enough exibility to detect syntenic regions that underwent local rearrangement and expansion. We recover 505 microsyntenies unique to cephalopods, representing blocks of genes only found in close proximity to each other in E. scolopes and at least one octopus species. For the same species sampling and same microsynteny detection parameters only 2 blocks would have been expected by chance (median from 3 rounds of randomization, as described in6). Five out of these 505 blocks were paralogous. In total, only 48 out of 2290 genes in these 505 blocks were identi ed as orphan genes with no homology outside of cephalopods, while all others have orthologs in other animals, suggesting that the origin of microsynteny was due to changes in gene locations rather than novel gene emergence. These microsyntenies have been conserved in coleoid cephalopods despite their long divergence time (Fig. 1b, c), suggesting an evolu- tionary constraint that kept those blocks of genes together. Similarly, a comparison in other molluscs, such as the scallop Mizuhopecten yessoensis11and the bivalve Crassostrea gigas showed that a much smaller number of bivalve speci c microsyntenies (152) is shared between these species. To infer the set of highly conserved micro- syntenic blocks, we reconstructed microsyntenies shared between E. scolopes and at least six more distantly related species out of a set of 23 species (Supplementary Fig. 2). We recovered 275 such metazoanmicrosyntenies, which are retained in the E. scolopes lineage and are inferred to date back to at least the last common bilaterian ancestor (Fig. 1c, Supplementary Fig. 2a, Methods ). In comparison, the bivalve M. yessoensis retains a similar number of metazoan micro- syntenies (216). These results provide evidence for a large-scale microsyntenic gain in coleoid cephalopods. Chromosomal distribution and properties of metazoan and novel cephalopod microsyntenies . Both cephalopod-speci c and conserved metazoan microsyntenic blocks are present on 44 out of 46 chromosomal scaffolds (with two chromosomes being too small to contain any microsyntenies). While some chromosomes have higher proportion of novel cephalopod microsyntenies (Supplementary Fig. 1b, c), both microsynteny types are inter- mixed in the genome (Fig. 1d). This result suggests a genome- wide mechanism for the emergence of novel microsyntenies. The vast majority of single-copy genes (71) that comprise 232 novel cephalopod microsyntenies are located on different chromosomes in the scallop M. yessoensis . As the organization of the recently published Nautilus genome 12is similar to other molluscs, these results suggest that either many translocations or chromosomal- level fusions occurred in the coleoid ancestor. Genomic properties of novel and conserved microsyntenies . Novel cephalopod and conserved metazoan microsynteny show different genomic properties. Novel cephalopod microsyntenies are on average smaller in size than the metazoan microsynteniesARTICLE NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 2 NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunicationsstill present in cephalopod genomes (Supplementary Fig. 2b), despite having similar numbers of genes (Supplementary Fig. 2c). While introns of genes in cephalopod-speci c microsyntenies are smaller than those of metazoan microsyntenies, the majority of size differences stem from intergenic regions (0.2 kb compared to 7 kb difference, respectively). We also nd evidence for differential enrichment of functional categories between the two microsynteny types. Metazoan microsyntenies6are enriched in signaling pathway components of the Wnt-signaling pathway, neurot ransmitter transport and synaptic vesicle exocytosis, G-protein coupled receptor signaling, negative regulation of transcription, and BMP signaling pathways, among others. Genes in novel, cephalopod-speci c microsynteny, on the other hand, play a role in translati on, redox processes, regulation of store-operated calcium entry, m RNA cleavage, transport, and chromatin organization ( p-values 0.05) (Supplementary Fig. 3). Spatial organization of the E. scolopes genome . Three- dimensional chromatin structure including topologically asso- ciated domains (TADs) facilitates distant regulatory interactions involved in gene regulation13,14. While very little data exists to- date on invertebrate genome topological organization, we found that in comparison to the data known for vertebrate TAD sizes the interaction distances were generally larger in the squid (Fig. 2a, b, Supplementary Note 4). TAD prediction tools (see Methods ) reveal a median E. scolopes TAD size of 2.5 Mb, in comparison to an average of 1.2 Mb in human15. In addition, the distribution of TAD sizes in E. scolopes was considerably wider than in human, suggesting a higher variability. In vertebrates, TAD formation is mediated by proteins, such as CTCF and cohesin16,17. We infer that the same mechanisms, including CTCF and the proteins Smc1 and Smc3 of the cohesin complex, are present in the E. scolopes genome and conserved with other animals, suggesting that similar mechanisms may bedeployed in cephalopods (Supplementary Fig. 4). We also nd TAD boundaries to be enriched for a CCCTC-like motif1820 reminiscent of a CTCF binding site (Fig. 2c,p1e12, Methods , Supplementary Note 4). Topological organization around microsyntenies . Several stu- dies suggested the possibility of correspondence between micro- synteny and regulatory domains in metazoan genomes4,5,7,8,2123. To understand the relationship of microsyntenies and TADs we compared the localization of randomly computed microsyntenic blocks, that follow the same properties as our observed blocks but are randomly distributed throughout the genome to the observed microsyntenies ( Methods ). We nd a tendency of conserved metazoan microsyntenies to be localized towards the center of the predicted TADs, whereas new cephalopod microsyntenies appear to be more evenly distributed (Fig. 3a). To further study the relationships of genomic regions and their interactions independent of TAD predictions, we computed a tree structure re ecting the organization of each chromosomal scaffold ( Methods , Supplementary Note 4). Each bifurcating branch re ects the relationships of genomic regions in Hi-C signal strength, allowing us to track interaction intensities in microsyntenies (Fig. 3b). Surprisingly, we found that novel microsyntenies are more likely to form tight interaction regions, reected by subtrees with few branches, when compared to randomly sampled syntenies (Fig. 3b). This result indicates signicantly higher levels of compartmentalization in both cephalopod and ancestral microsyntenies. Motivated by the importance of three-dimensional genome architecture and microsyntenic co-localization in Euprymna scolopes , three-dimensional modeling based on Hi-C interaction matrices was performed ( Methods , Supplementary Fig. 5, Supplementary Note 5) to provide a deeper understanding of spatial properties and co-localization of both novel and ancient diuqS sesupotcO sulituaN semotsotorp rehtO semotsoretueD c270  410  670 150-220Mya Esc Obi CmiLgiAcaMyeCgiCteDmeCel Bfl Nve Aqu Mle0Coleoideaa bd Cephalopoda SkoCephalopod-specific synteny in E. scolopes Gene density Conserved synteny shared between Euprymna and at least 6 other species Alanine dehydrogenasePNT, N-terminal domain Alpha-aminoadipic semialdehyde synthase GDP-fucose protein O-fucosyltransferase Exonuclease Integrase Cysteine-rich protein 2-binding protein-like Helix-loop-helix DNA-binding domain Transmembrane 219 Zinc Finger Uncharacterized Protein 50S ribosome-binding GTPase Transcription factor, T-box 1008070 90 Mbp Mbp1 20 40 60 80 100 120 140 160 180 Fig. 1 Large-scale syntenic reorganization of cephalopod genomes. a Photograph of an Euprymna scolopes hatchling. bSchematic tree with divergence times of major cephalopod lineages from deuterostomes and other protostomes53,54.cCircos plot showing loss of syntenies conserved in other metazoans and the emergence of a large number of novel, cephalopod-speci c microsyntenies within cephalopods. Each line represents a syntenic cluster shared between different species. Orange lines indicate syntenic clusters shared between at least seven out of these 24 species (ancestral, metazoan clust ers); green lines represent novel molluscan syntenies, shared between ve or more molluscs but not present in any non-molluscan species. Blue lines represent cephalopod-speci c syntenies shared between either all three cephalopod species (dark blue) or two of the three cephalopod species (light blue) but not present in any non-cephalopod species; gray lines represent other syntenies that do not fall in either of the previous categories. Abbreviations: Ac a- Acanthaster planci , Aqu Amphimedon queenslandica ,B-Branchiostoma oridae ,Cel - Caenorhabditis elegans , Cgi - Crassostrea gigas , Cmi - Callistoctopus minor , Cte - Capitella teleta , Dme - Drosophila melanogaster , Esc Euprymna scolopes , Lgi - Lottia gigantea , Mle - Mnemiopsis leidyi , Mye - Mizuhopecten yessoensis , Nve - Nematostella vectensis , Obi Octopus bimaculoides , Sko - Saccoglossus kowalevskii dExample of one whole chromosomal-scale scaffold (right) of E. scolopes showing the distribution of gene density, cephalopod-speci c (blue) and conserved, metazoan (orange) syntenies. Inset (left) with locations of genes within two speci c syntenic blocks.NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 ARTICLE NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunications 3microsyntenic regions within modeled chromosomal scaffolds. Three-dimensional models revealed that novel cephalopod microsyntenies have distinct spatial properties from ancient microsyntenies. In particular, both synteny types showed differential solvent accessibility on some chromosomes when compared to random distributions (Fig. 2d). Moreover, novel cephalopod microsyntenies were on average less buried, thus covering a larger proportion of chromosomal surface (Supple- mentary Fig. 6). This result was in contrast to the conserved metazoan microsyntenies, which tend to participate in the formation of the chromosomal core (Fig. 2e, Supplementary Fig. 6). Since the novel microsyntenies are transcriptionally active (Fig. 3, see below), their location on the chromosomal surface may be re ective of highly dynamic inter-chromosomal regula- tion, as well as being more accessible to transcription factors.The GC content of metazoan and cephalopod-speci cm i c r o - synteny was evaluated along with predictions of AB compartments based on the Hi-C interaction matrix (Methods). The analysis did not provide suf cient evidence for one of the mycrosyntenic types being more prevalent in either of the compartments. Until further experimental data are available (such as methylation and acetylation proling) for Euprymna scolopes , we cannot accurately infer the distribution of cephalopod-speci c and metazoan microsynteny within AB compartments. Taken together, the strong genomic conservation among sequenced cephalopods, the comparably tight packaging (short inter-gene distances) of microsyntenic clusters and their prevalent association with de ned subcompartments within detected TADs suggests strong selective pressure to maintain regulatory proper- ties of novel microsyntenic units in the cephalopod genomes. tnuocC-iHevitaleR ezisdaT 234567 01100KbA TGC A CGTA C TGCG TAA G TCG TAC G TAC A CGTG TAC A CGTCG TACG TAaChromosomal scaffold 10b c e dd rebmunDAT TAD bordersGenomic bin (resolution: 100000) Cephalopod-specific syntenyConserved, metazoan synteny Chromosomes of specific interest90 210 0.000.050.100.150.20 0.00 0.05 0.10 0.15 0.20 Meta total chromosome SASAbpCeph total chromosome SASAbp 210 0.000.050.100.150.20 0.00 0.05 0.10 0.15 0.20 Meta total chromosome SASAbpCeph total chromosome SASAbpRANDOM  3 genes (20 iterations) OBSERVED 3 genes 0.00.51.01.5Total SASAbp 0.00.51.01.5Total SASAbp Cephalopod-specific syntenyConserved, metazoan synteny Cephalopod-specific syntenyConserved, metazoan syntenyE. scolopes Human mean 5mbp10mbp15mbp20mbp 0mbp Fig. 2 Topological and spatial organization of the cephalopod genome. a Top: Hi-C normalized interaction matrix at 100 kb resolution for chromosomal scaffold 10. Bottom: Relative Hi-C count and TAD boundary scores as predicted by tadbit (1 lowest, 10 highest). bViolin plot of TAD size distributions for human and Euprymna scolopes computed at 100 kb resolution, plotted in 100 kb bins. cCTCF binding motif as identi ed by homer motif search in 100 kbp of predicted TAD boundaries. dSolvent area surface exposure (SASA) per bp for individual chromosomal scaffolds (observed and random). Conserved metazoan synteny on x-axis, cephalopod-speci c microsynteny on y-axis. eThree-dimensional model of chromosomal scaffold 10 with novel (blue) and conserved (yellow) microsynteny locations labeled. Left and right models are the same, shifted by 90.ARTICLE NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 4 NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunicationsCo-expression properties of microsyntenies . Co-expression of syntenic genes is an impor tant property that can re ect their reg- ulation. Genes in cephalopod-speci c microsyntenies do not tend to be co-expressed, despite their tight co-localization ( Methods , Supplementary Note 7). When compared to randomly sampled groups of genes that follow a similar distribution to the observed, novel microsyntenies, the mean co-expression coef cient is even slightly lower in the observed data (Wilcoxon test, p0.05, Fig. 3c). In contrast, conserved metazoan microsyntenies show signi cant (Wilcoxon test, p0.001) co-expression when compared to simu- lated microsyntenies (Fig. 3c). This result indicates that genes in metazoan microsynteny tend to co-express in a de ned set of tissues, similar to previous ndings for ancient metazoan microsynteny8.A similar pattern was also observed for co-expression of novel and conserved metazoan microsyntenies in O. bimaculoides (Supple- mentary Fig. 7a). No type of microsynteny showed enrichment of expression-speci city in a particular tissue24.To further categorize expression pro les, we investigated averaged expression of syntenic regions. This analysis showed complex patterns that fell into eight distinct expression modules across adult E. scolopes tissues (Fig. 3d,Methods , Supplemen- tary Note 7). Although most modules had similar proportions of both microsynteny types, some clusters formed outliers. For example, module 8 showed eye-speci c expression and was mostly dominated by metazoan microsynteny. Interestingly, clusters encompassing multiple nervous tissues, in particular modules 2 and 4, were enriched in novel cephalopod micro- syntenies (Fisher s exact test p-values 0.02 and 1e07, respectively). Their orthologs were similarly expressed in O. bimaculoides nervous tissues, with novel microsyntenies dom- inating in modules associated with the strongest brain expression (Supplementary Fig. 7b). However, the overall module corre- spondence was impacted by the difference in tissue sampling (Supplementary Fig. 7c). syntenic cluster take center find location in TAD  convert to averaged locations from 0-1 0 1 0.5a syntenic cluster N14 Last common ancestor of all bins in syntenyN27Ratio N2 N1bcGene 1 Gene 2Gene 3 Gene 4coexpression correlation dnsns 0.00.51.0 retsulc cinetnys ni snib fo rebmun oitaR eert-bus ni snib fo rebmun .s.v synteny cephalopod-specific metazoan Z-score -2-10121 23 45 67 8Brain Eyes Skin Gills Light organ Acessory nidameltal glandSynteny Expression module0.000.250.500.751.00Percentage3 UTR 5 UTR Distal Intergenic Downstream Exon Intron Promoter cephalopod- specificmetazoan non-syntenic Syntenyinteraction frequencyhigh low 0.00.51.0 0.00 0.25 0.50 0.75 1.00 position of normalized synteny centerdensitycephalopod-synteny metazoan-synteny  -101 cephalopod metazoan random cephalopod random metazoancorrelation meancephalopodmetazoanrandom cephalopodrandom metazoan ns cephalopod metazoan random cephalopodrandom metazoan e Gill cluster LO cluster BrainANG cluster ANG cluster Broad cluster Skin cluster Eye cluster Brain cluster 0 2 55 07 5 1 0 0 Percent NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 ARTICLE NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunications 5We next wanted to investigate whether these expression patterns are biased due to a single highly expressed gene per syntenic block. The vast majority of microsyntenic blocks (76, Supplementary Fig. 8b) have one gene that contributes to more than 50 of the cumulative expression. We then calculated relative expression levels across tissues per gene and averaged it for each block, showing that overall expression module identities are retained (Supplementary Fig. 8a). In general, expression variance correlates with absolute expression of genes (Supple- mentary Fig. 8c). In some metazoan syntenies, however, especially in the tissues de ning a module, the variance was low, indicating higher co-expression constraints (Supplementary Fig. 8c). Together, these results highlight the complex expression domain contribution of microsyntenic regions and identi es a discrepancy in the co-expression dynamics between novel cephalopod and metazoan microsyntenies. This paucity of co- expression in cephalopod microsyntenies indicates a potentially different mode of their gene regulation. Regulatory signatures of microsyntenies . Expression modules showed speci c signatures of regulatory motifs associated with them. We predicted regulatory regions using assay for transposase- accessible chromatin (ATAC-seq25) data from a developmental time course ( Methods , Supplementary Note 9). Predicted peaks associated with each expression cluster were then further analyzed for known transcriptio n factor motif enrichment, separately for cephalopod and ancient microsynteny ( Methods , Supplementary Data 2). We nd that the cephalopod microsynteny module 2, which is associated with multiple nervous tissues, was enriched forthe transcription fact ors binding motifs Chop 26,E 2 F 127,N e u r o G 228, COUP-TFII29,A t f 430involved in nervous system differentiation and developmental transcription factors ZBTB18, Esrrb, Tcf21, Pitx1, GATA in all three developmental stages ( p1 e3). Module 4 was similarly enriched in transcription factor binding motifs involved in nervous system and general dev elopment such as Tcf3, TCFL2, GATA, Tcf21, and Pitx1 in all three developmental stages ( p1 e 3). This suggests a common regulatory scheme responsible forgene expression in each of the expression modules and an associa- tion of those motifs with novel cephalopod microsynteny. To complement our ATAC-seq data, we conducted whole- genome alignments between available cephalopod genomes using different alignment similarity and length thresholds ( Methods , Supplementary Note 8, Supplementary Table 5, and Supplemen- tary Fig. 9). This helped identify potential conserved non-coding elements (CNEs) and their association with gene bodies and genome topology ( Methods , Supplementary Fig. 10, Supple- mentary Note 8). Due to evolutionary distance between squid and octopus lineages, our approach yielded only 1187 coleoid cephalopod CNE candidates with a similarity threshold of 0,95 and a minimum size of 100 bp (Supplementary Table 5), of which 613 could be localized to gene features (Supplementary Fig. 10a c). 139 were associated with novel cephalopod micro- syntenies (inside or within 1 kb of microsynteny), 73 with metazoan syntenies inside or within 1 kb of microsynteny), and 401 were located outside any synteny (Supplementary Fig. 10b). Only 12 of the 1187 candidates had overlap with ATAC-seq peaks (Supplementary Table 5). For CNEs shared among squid genomes we found 42920 putative CNEs with a similaritythreshold of 0.95 and a minimum size of 100 bp (Supplementary Table 5), of which 13889 could be localized to gene features (Supplementary Fig. 10a c). 2444 were associated with novel cephalopod microsynteny (inside or within 1 kb of microsyn- teny), 3255 with metazoan synteny, and 8190 were located around genes outside any synteny (Supplementary Fig. 10c). Similarly, very few overlapped with ATAC peaks (14). Therefore, the regulatory role of these regions remains unclear. A potential contribution to this observation could be the high evolutionary turnover of regulatory regions within the squid lineage, diminishing the insight gained from genome alignment conservation-based inferences. Cephalopod genomes are large with over 50 of genome length attributed to repetitive elements 2,3. We thus assessed the transposable element composi- tion of ATAC-seq peaks associated with microsyntenic clusters. Both microsynteny types showed an average repeat content of 40. ATAC-seq peak sequences in cephalopod microsyntenies inFig. 3 Novel cephalopod microsyntenies and their regulatory properties in Euprymna scolopes .aRatio between densities of the center of observed and randomized microsynteny locations within normalized TADs. Ratio increases towards the center of TADs for metazoan syntenies and decreases for cephalopod synteny. bCompactness of novel and metazoan microsynteny, compared to random simulations. Microsyntenic clusters must contain at least 3 genes, if fewer genes were annotated to the tree, these clusters were excluded. Plotted are the ratios between the number of bins (at 40 kb Hi-Cresolution, cephalopod micrysynteny bins n143,969, metazoan microsynteny bins n82,417, random cephalopod microsynteny bins n3,499,849, random metazoan microsynteny bins n1,889,687) in microsyntenic clusters (within 7 and 25 bins, valid microsyntenies: cephalopod n265, metazoan n125, random cephalopod n4265, random metazoan n2180) and the number of descendant bins from the last common ancestor of those microsyntenic bins ( Methods , cephalopod n143,969, metazoan n82,417, random cephalopod n3,499,849, random metazoan n1,889,687). The ratio ( n6835) of the number of bins in a cluster and the number of bins in the sub-tree were compared by two sided Wilcoxon rank-sum test comparing the linked groups ( p 0.0001,   0.05, ns: not signi cant). The closer the ratio to 1, the lower is the difference between the size of the syntenic block and the number of bins in an extracted tree. Violin plots distribution, boxes interquartile range (cephalopod lower 0.06, upper 0.56, metazoan lower 0.01, upper 0.58, random cephalopod lower 0.01, upper 0.49, random metazoan lower 0.01, upper 0.46), bars median (cephalopod 0.31, metazoan 0.28, random cephalopod 0.18, random metazoan 0.17), whiskers furthest sample within 1.5x interquartile range (cephalopod min 0.002, max 0.94, metazoan min 0.002, max 0.95, random cephalopod min 0.002, max 0.96, random metazoan min 0.002, max 0.96), maximum and minimum ratios: cephalopod min 0.00189, max 0.941, metazoan min 0.00217, max 0.952, random cephalopod min 0.00151, max 0.962, random metazoan min 0.00150, max 0.96. cCo-expression correlation of genes in microsyntenic clusters (cephalopod n476, metazoan n236, random cephalopod n6925, random metazoan n4038). The co-expression correlation of metazoan syntenies is higher than that of cephalopod-speci c syntenies or random clusters ( p 0.0001,  p 0.001,   0.05). Violin plots distribution, boxes furthest sample within 1.5x interquartile range (cephalopod min0.69, max 0.87, metazoan min0.63, max 1.0, random cephalopod min0.72, max 0.95, random metazoan min0.66, max 0.9), bars median (cephalopod 0.05, metazoan 0.15, random cephalopod 0.07670835, random metazoan 0.07) outliers were excluded from these numbers. Maximum and minimum values: 1 and 1 in all cases. dClustering of mean expression per synteny cluster, color-coded by synteny type, expression among Euprymna scolopes adult tissues. Syntenic clusters form eight expression modules with speci c expression patterns. Expression matrix is z-score normalized. Light organ E. scolopes -speci c organ harboring symbionts, accessory nidamental gland female-speci c reproductive organ of some squid species. eAnnotation of ATAC peak location in late organogenesis. Peaks annotated as associated with cephalopod- speci c microsyntenies are more often found in intronic regions. Promotor de ned as 10 kb and 10 kb predicted transcription start site.ARTICLE NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 6 NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunicationsE. scolopes showed an elevated repetitive element content of 82 and were most frequently associated with LINECR1-Zenon elements (44, compared to 35 in metazoan microsyntenic peaks). The LINECR1 expansion was identi ed as the most common and speci cally expanded repeat element class in the squid ( E. scolopes ) lineage3. Evolutionary scenarios for functional microsynteny emergence in cephalopods . Conserved gene co-localization may be explained by regulatory regions within a neighboring gene, even though the function of the gene may be unrelated (the bystander scenario), together forming a genomic regulatory block (GRB)4,5, or via shared regulatory elements controlling the expression of all syntenic genes, resulting in higher co-expression8. Our micro- synteny approach is agnostic to this distinction, focusing on any conserved co-localization of three or more genes. We thus may use our data to independently pro le the propensity of metazoan or cephalopod microsyntenies to correspond to known functional microsyntenic models. The location of ATAC-seq peaks within the microsyntenic clusters reveals that open chromatin regions associated with cephalopod-speci c microsynteny were more often found in introns than peaks found in conserved, metazoan microsynteny or other non-syntenic genes (Fig. 3e, Fisher s exact testp1 e5). Interestingly, while sharing little overlap, CNE distribution, in particular of CNEs shared among squids, showed signicant localization towards distal regions in metazoan syn- tenies (Fisher s exact test p 2.2e16) (Supplementary Fig. 10). This result indicates that, unlike more conserved microsyntenies, novel cephalopod microsyntenies are more similar to the GRB scenario, in particular the bystander model, in which putativeenhancers are found within closely located (bystander) genes inside the same microsyntenic cluster and may potentially lack distal regulatory domains. This observation may also complement thending of weaker co-expression of microsyntenic genes in cepholopod-speci c microsynteny, compared to more ancient, conserved microsyntenies. Given this insight, we further sought to investigate the potential function of novel cephalopod microsyntenies in expression modules 2 and 4 that showed the highest contribution to neuronal tissue expression domains. Such microsyntenies can be considered a useful test set of functional microsyntenies that were involved in the evolution of the cephalopod nervous system. We thus examined the genomic rearrangement, the regulato ry landscape, and expression of genes within one of the repres entative cephalopod-speci cm i c r o - syntenies from expression module 2. It was one of the clusters with the highest number of genes, encoding for ceramide-1 phosphate transfer protein, phenylalanine-tRNA ligase, splicing factor 3B subunit, integrator complex subunit, and amyloid protein-binding protein. Orthologs of this microsy nteny were widely spread across two chromosomes in scallop (Fig. 4a), yet were densely packed in theE. scolopes genome with almost no intergenic space and a few dominant ATAC peaks towards one end of the cluster in the intron of phenylalanine-tRNA ligase (Fig. 4b). Similar to the general trend, this clustering in cephalopods impl ies either several local transloca- tions or a large-scale chromosom al fusion, followed by rearrange- ments. The cluster was localized towards the center of the predicted TAD (Fig. 4b), close to another novel microsyntenic unit (from the same expression module). Together, these two units form a compartment of high Hi-C interaction density, separate from the closest metazoan microsyntenic compartment and its associated ATAC-peaks (Fig. 4b). In our three-dimensional chromosomal model, this microsynteny was also found on the surface of chromosomal scaffold 2 (Fig. 4c). Interestingly, the genes in this cluster show nervous system expression both in scallop and E. scolopes (Fig. 5a, Supplementary Note 10). Despite some of thesegenes being considered as purely metabolic or housekeeping genes, in vertebrates they are known to play an important role in nervous system development and activity3135.W ec o n d u c t e di ns i t u hybridization to visualize gene expression during development inE. scolopes embryos and con rmed the expression in all major central brain regions (Fig. 5b, c, Supplementary Note 11). However, we also revealed expression in other novel cephalopod tissues and organs, such as the axial nerve cords as well as heart and gills (Fig. 5b, c, Supplementary Fig. 11). This result provides evidence that this microsyntenic cluster and its siblings from expression module 2 could comprise functional microsynteny of the bystander model type that were crucial contributors to the emergence of novel cephalopod expression domains. More generally, the observation of microsyntenies associated with cephalopod innovations (MACIs) and their further investigation co u l dh e l pd i s s e c tt h ee v o l u t i o no f complex cephalopod tissue expression patterns. In summary, we present a comprehensive study of topological and regulatory genome organization in a coleoid cephalopod. Characterized by megabase-range interactions, cephalopod gen- omes have been impacted by a genome-wide syntenic reorganiza- tion, with an extent that is rare among animal genomes. This reorganization led to the gain of hundreds of cephalopod-speci c microsyntenies that are associated with compact topological regions and a distinct mode of gene regulation. Their putative regulatory sequences were often located within the introns of genes within the same microsyntenic cluster, as has been proposed for functional gene linkage in the bystander model. Our analysis of the microsyntenic expression data revealed complex expression patterns of novel microsyntenies associated with a speci c set of cephalopod neural tissues and other novel organs. We identify two such expression modules most prominently affected by the emergence of novel cephalopod microsyntenies, each associated with a speci c regulatory signature. We propose that this syntenic locking-in , i.e., high compactness and regulatory streamlining, was responsible for the emergence and extension of ancestral molluscan neural tissue expression domains. As much of cephalopod molecular biologyremains elusive, our study proposes the use of these micro- syntenies associated with cephalopod innovations (MACIs) to begin to unravel molecular changes associated with cephalopod developmental and organismal innovations. This study sets the stage for further investigation of MACIs and their roles in the emergence of novel expression domains and organismal innova- tions in cephalopods. Methods Collection of animals .E. scolopes eggs were obtained from cultures and main- tained at the Vienna Zoo or at the Marine Biological Laboratory. All work was performed in compliance with the EU Directive 201063EU on cephalopod use and AAALAC guidelines on the care and welfare of cephalopods36. Adult E. sco- lopes spawned naturally in their tanks, and embryos were collected shortly after spawning and maintained in a closed aquarium system lled with arti cial sea- water. Embryos developed to the appropriate stage and were anesthetized with 2Ethanol before use 3739. Hi-C, genome scaffolding, and 3D analysis . Hi-C sample preparation was per- formed as described in Supplementary Note 2. Brie y, Hi-C samples were gener- ated on developmental stage 2740with 30 pooled embryos using the six base restriction enzyme Hind3. Paired-end sequencing of 50 bp was done on an Illu- mina HiSeq2500. Hi-C reads were aligned to the reference genome (excluding scaffolds 50k) resulting in over 106 million valid interaction pairs (alignment rate71). Aligned reads were used to scaffold the genome to chromosomal scaffolds. Assembly statistics are summarized in Supplementary Note 2. Raw Hi-C reads were then again mapped to the new chromosomal scaffolds, recovering over 106 million valid interaction pairs (alignment rate 71). Three-dimensional modeling of chromosomal scaffolds is described in Supplementary Note 3. For humansamples, Hi-C samples of B-lymphoblastoids were downloaded from NCBI (ref. 41, SRR1658570, HIC001) and aligned to the human reference genome (GRCh38.p12) obtaining over 144 million valid interaction pairs (73 alignment rate).NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 ARTICLE NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunications 7Synteny analysis . Gene orthology was reconstructed using 27 species spanning all major metazoan clades. Microsynteny was computed using in-house tools as described in detail in Supplementary Note 3. Metazoan synteny was de ned as all syntenic blocks shared between at least seven other species. Novel, cephalopod- specic synteny was de ned as synteny shared between E. scolopes and at least one octopus species. Random microsyntenies were modeled after the distribution of observed syntenies as described in ref.8for 20 iterations. Additional details of the scripts and steps are found in Supplementary Note 3.Chromatin conformation analysis . TADs for E. scolopes and Human were called with Tadbit42with the Tadbit algorithm and with HiCExplorer43.E. scolopes TADs were averaged and the location of the middle of each syntenic cluster was mapped to analyse the distribution of syntenies within TADs. If syntenies spanned several TADs, only the TAD mapping the middle of that synteny was considered. Toanalyse the topology of microsyntenic clusters further, the normalized Hi-C interaction matrix was used to cluster each bin to its closest neighbor by the bin interaction strength. An interaction cladogram for each chromosome was a b c syntenic cluster other cephalod-specific synteny on the chromosome metazoan -specific synteny on the chromosome integrator complex subunit 11 amyloid protein-binding protein splicing factor 3B subunit ceramide-1-phosphate transfer protein phenylalanine-tRNA ligaseHi-C bin-size 40000 ATAC-seq early stage rep.1 RNA-seq early stagerep.1 ATAC-seq middle stagerep.1 RNA-seq middle stage rep.1 ATAC-seq late stagerep.1 RNA-seq late stagerep.1 Genes 128 127 126 Mbp 90Scallop chromsome 10 Scallop chromsome 15 2015 251053 0 3 5 4 012 0 15 251053 0 3 51 Mbp Mbp 1 20 40 60 80 100 120 140 160 180127 MbpEuprymna chromosomal scaffold 02126.7Mbp -127.1MbpARTICLE NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 8 NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunicationsreconstructed that way. To understand how well a syntenic region is de ned by its interactions, we extracted the last common ancestor of that region (i.e., the bins inthat region) from the whole tree making up the chromosome. Then the ratio between those sub-trees and the number of bins in a syntenic cluster was calculated and differences between groups were tested using the Wilcoxon test. Chromatin conformation analysis of synteny . The center of each syntenic cluster was localized within predicted TAD boundaries. The locations were thennormalized and plotted for observed and random microsyntenies. To visualize the differences between observed and random, the ratio between densities ofeach were calculated and plotted in normalized TAD locations (Fig. 3a). A density over one signi es an enrichment of observed synteny compared to random clusters. A density lower than one signi es a depleted signal of observed synteny compared to random clusters. Random synteny represents clusters sampled from the distribution of observed blocks from random loca- tions in the genome.Fig. 4 Emergence of compact clusters and their unique expression patterns in nervous tissues. a Location of orthologous genes of one of the MACIs in Mizuhopecten yessoensis. The genes are located on two separate chromosomes (top whole chromosome, bottom zoom in, black gene density, blue  location of orthologous genes) with many intervening genes in-between. Scallop orthologs of genes in the microsyntenic cluster are plotted at the bo ttom highlighted in blue. bGenes of the same cluster in Euprymna scolopes . The genes (highlighted in blue) are tightly packed on one chromosomal scaffold with only one intervening gene (top whole chromosomal scaffold, bottom zoom in, orange conserved, metazoan microsyntenic clusters, blue cephalopod- speci c microsyntenic clusters). The cluster is located within a TAD. Two major ATAC-seq peaks are present in intronic regions of the last gene of the cluster in three developmental stages (y-axis signal value). RNA-seq read count of three developmental stages shows several small peaks in the region of the cluster (y-axis read count). Early-stage early organogenesis, stage 20, middle stage late organogenesis, stage 2425, late stage close to hatching, stage 2829. cThree-dimensional reconstruction of chromosomal scaffold 2. The cephalopod-speci c syntenic cluster is located on the surface. Left and right views are shifted by 90. INT DG ST OLGI DGINTPSM ASM -2-1012 amyloid protein-binding protein splicing factor 3B subunit ceramide-1-phosphate transfer protein phenylalanine-tRNA ligase Integrator complex subunit 11 Row z-scoreganglion eye mantle gill hemocytes brain eye skin light organ gill accessorynidamentalgland hemocytes nilubut- DG DGSTINT OLINTIYO IYO OLPSM eborp onlocotorp elohwINTGI IYOPSM ASMINTPSM ASM OLST esagil-ANRt IYO OLDGINT ASM OLASM FT IS xelp moc rotargetnitinubusINT ASMIYO OLOLSUBST GI 1 edi marec refsnart etahpsohpnietorp ST INTgnidnib dioly manietorpgill(GI)b a c heartsdigestive tract(INT) light organink sack(IS)digestive gland(DG) statocyst(ST) optic lobe(OL) brain eye beak arm sucker tentaclebrain ASMASM OLINT DGinernal yolk(IYO) SEM - supraesophageal mass SUB - subesophageal mass INT OL ST ASMASMOLST BMINTIYO STrotcaf gnicilpstinubus B3 PSM OL OLOLPSMOL OL OLOL PSMPSM eyeeye eyeeyePSM eye eyeOL OL eye eye eye eyeOL Fig. 5 Expression of genes in a representative MACI in late developmental stages of E. scolopes .aHeatmap showing expression of orthologous genes of the cephalopod-speci c cluster in adult scallop and E. scolopes tissues showing neuronal expression in both species. Scale bar shows z-score normalized expression levels per row. bScheme of late stage (Stage 27 29) E. scolopes anatomy and section of hatchling. cExpression of MACI genes in nervous tissues and inner organs of late developmental stages of E. scolopes . All genes show expression in different lobes of the brain, most dominantly the ASM and PSM. Light expression patterns are present in the optic lobes, the digestive gland and intestines in most genes. Expression patterns differ to Bet a- tubulin, which was chosen as a control for its pan-neuronal expression domain, in its intensity and distribution. Scale bars 100m. ASM anterior subesophageal mass, DG digestive gland, ES esophagus, FT funnel organ, GI gills, INT intestine, IS ink sack, IYO internal yolk, OL optic lobe, PSM post erior subesophageal mass, ST statocyst. Dotted circles - color trapping.NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 ARTICLE NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunications 9Co-expression analysis . Co-expression coef cients for adult tissues of E. scolopes andO. bimaculoides were computed as described in ref.8. A detailed description of the steps is provided in Supplementary Note 7. CNE identi cation .T h eg e n o m e so f E. scolopes andO. bimaculoides and of E. scolope sa n d A. dux were aligned with megablast, using E. scolopes as the query sequence. Five different settings for BLAST44similarity scores (-perc_identity) were used: 0, 70, 80, 95, and 98 (Supplementary Figs. 9, 10, SupplementaryTable 5, see refs. 4,7,45,46). For further settings see Supplementary Note 8. Multi- mapping regions were excluded if they overlapped by more than 50 and occurred more than 3 times using BEDOPS47bedmap. bedmap --count --echo --fraction-both 0.5 --delim t pre ltered_megablast.bed  awk 1 4  cut -f2- sort-bed -  uniq . Remaining overlapping regions were merged with bedops merge . Any region overlapping with an exon by 1 bp or more was excluded using bedtools48subtract. To exclude repetitive regions, fasta sequences were extracted from the ltered putative CNE locations and meme s49dust (cut-off 10) function was used to mask repeats. In addition, two datasets were created for each similarity score with a minimum size of 100 bp or 50 bp respectively. For similarity scores of 0, only 100 bp regions were kept. Any region with more than25 Ns was excluded. To remove any remaining coding sequences, the remaining putative CNE sequences were blasted against the NCBI 50NR database and any regions overlapping with a BLAST match were removed. Chromatin accessibility assay with ATAC-seq . ATAC-seq samples preparation and analysis are described in Supplementary Note 9. ATAC-seq was generated forstages 20, 25, and 2829 40with two biological replicates each as described in refs.25,51,52with slight modi cations. Each ATAC-seq library was generated with two biological replicate samples. Samples were sequenced on Illumina HiSeqV4 using 125 bp paired-end reads. The reads were trimmed with BBDuk ( https:jgi. doe.govdata-and-toolsbbtoolsbb-tools-user-guidebbduk-guide ) and mapped to the chromosomal scaffolds. Peaks were called with Genrich ( https:github.com jsh58Genrich ). After trimming between 72 and 143 million reads remained which were mapped at between 79 and 83 and between 22,443 and 36,933 peaks werecalled for each sample. Fluorescence in situ hybridization (FISH) and in situ hybridization (ISH) .E. scolopes embryos removed from eggs and jelly layers and hatchlings were anes- thetized in 4 EtOH in seawater or 4 EtOH and MgCl 2(2 M solution added slowly to seawater) and subsequently xed in 4 paraformaldehyde38. Sequences of interest were identi ed from the adult E. scolopes transcriptomes. cDNA of pooled developmental stages was used for PCR with Q5 polymerase. Products were clonedin pjet vectors and isolated with an innuPREP Plasmid Mini Kit (Analytik jena (Jena, Germany)) and sequenced. Riboprobes were generated from ampli ed minipreps and reverse transcribed with DIG-labeled nucleotides. Details on theFISH and ISH protocol can be found in Supplementary Note 11. Embryos and hatchlings were imaged on an inverted Zeiss (Oberkochen, Germany) LSM 780 multiphoton Confocal Laser Scanning Microscope. Reporting summary . Further information on research design is available in the Nature Research Reporting Summary linked to this article. Data availability The data that support this study are available from the corresponding authors upon reasonable request. The Hi-C and ATAC-seq data have been deposited in the NCBI database under Bioproject PRJNA661684 . All expression, ATAC-seq, and CNE data that is mapped to the reference genome is available on a genome browser (currently, http:metazoa.csb.univie. ac.at:8000euprymnajbrowse or upon request). All other genomic and trascriptomic data used was downloaded from NCBI ( GCA_002113885.2 ,GCA_000002075.2 ,GRCh38.p12 , GCA_001949145.1 OLI-Apl_1.0 ,GCA_000003605.1 ,GCA_000224145.2 ,GCA_000003815.1 Version 2, GCA_004765925.1 ,Spur_3.1 ,GRCm38.p6 ,SAMN00691532 ,SAMN00152410 ), ENSEMBL (BDGP6.28 http:www.ensembl.orgDrosophila_melanogasterInfoIndex , WBcel235 http:m.ensembl.orgCaenorhabditis_elegansInfoAnnotation , Capitella_teleta_v1.0 http:metazoa.ensembl.orgCapitella_teletaInfoIndex , ASM23792v2 http:metazoa.ensembl.orgSchistosoma_mansoniInfoIndex , oyster_v9 http:metazoa. ensembl.orgCrassostrea_gigasInfoIndex ,H e l r o 1 http:metazoa.ensembl.orgHelobdella_ robustaInfoIndex ,L o t g i 1 http:metazoa.ensembl.orgLottia_giganteaInfoIndex , PRJNA270931 https:metazoa.ensembl.orgOctopus_bimaculoidesInfoIndex , Stegodyphus_mimosarum_v1  https:metazoa.ensembl.orgStegodyphus_mimosarumInfo Index , Tcas5.2  http:metazoa.ensembl.orgTribolium_castaneumInfoIndex , AMS_PRJEB1171_v1  https:metazoa.ensembl.orgAdineta_vagaInfoIndex , GRCh37.p13 https:grch37.ensembl.orgHomo_sapiensInfoIndex , ASM20922v1 https:metazoa. ensembl.orgNematostella_vectensisInfoIndex ,A q u 1 https:metazoa.ensembl.org Amphimedon_queenslandicaInfoIndex , MneLei_Aug2011 http:metazoa.ensembl.org Mnemiopsis_leidyiInfoIndex ) or GIGA (PRJNA421033 https:www.ebi.ac.ukenabrowser viewPRJNA421033 ). Human Hi-C data was downloaded from NCBI ( SRR1658570 , HIC001). Processed les and tables needed to re-create the gures are accessible via a bitbucket repository: https:bitbucket.orghannahschmceph_regulation_microsynteny . Source data are provided with this paper.Code availability All bioinformatic protocols will be made available under https:bitbucket.org hannahschmceph_regulation_microsynteny with detailed settings for each program and example scripts. The C script for 3D structures of individual chromosomes can be accessed upon request to T. Clarence (tereza.clarencecrick.ac.uk). Received: 19 August 2020; Accepted: 28 March 2022; References 1. Ritschard, E. A. et al. Coupled genomic evolutionary histories as signatures of organismal innovations in cephalopods: co-evolutionary signatures across levels of genome organization may shed light on functional linkage and origin of cephalopod novelties. BioEssays N. Rev. Mol. Cell. Dev. Biol. 41, e1900073 (2019). 2. Albertin, C. B. et al. The octopus genome and the evolution of cephalopod neural and morphological novelties. Nature 524, 220 224 (2015). 3. Belcaid, M. et al. Symbiotic organs shaped by distinct modes of genome evolution in cephalopods. Proc. Natl Acad. Sci. USA 116, 3030 3035 (2019). 4. Engstrm, P. G., Ho Sui, S. J., Drivenes, O., Becker, T. S.  Lenhard, B. Genomic regulatory blocks underlie extensive microsynteny conservation in insects. Genome Res. 17, 1898 1908 (2007). 5. Irimia, M. et al. Extensive conservation of ancient microsynteny across metazoans due to cis-regulatory constraints. Genome Res. 22, 2356 2367 (2012). 6. Simakov, O. et al. Insights into bilaterian evolution from three spiralian genomes. Nature 493, 526 531 (2013). 7. Kikuta, H. et al. Genomic regulatory blocks encompass multiple neighboring genes and maintain conserved synteny in vertebrates. Genome Res. 17, 545555 (2007). 8. Zimmermann, B., Robert, N. S. M., Technau, U.  Simakov, O. Ancient animal genome architecture re ects cell type identities. Nat. Ecol. Evol. 3, 1289 1293 (2019). 9. McFall-Ngai, M. J.  Ruby, E. G. Symbiont recognition and subsequent morphogenesis as early events in an animal-bacterial mutualism. Science 254, 1491 1494 (1991). 10. Nyholm, S. V.  McFall-Ngai, M. J. A lasting symbiosis: how the Hawaiian bobtail squid nds and keeps its bioluminescent bacterial partner. Nat. Rev. Microbiol .https:doi.org10.1038s41579-021-00567-y (2021). 11. Wang, S. et al. Scallop genome provides insights into evolution of bilaterian karyotype and development. Nat. Ecol. Evol. 1, s41559-017 0120 017 (2017). 12. Zhang, Y. et al. The genome of Nautilus pompilius illuminates eye evolution and biomineralization. Nat. Ecol. Evol. 5, 927 938 (2021). 13. van Berkum, N. L. et al. Hi-C: a method to study the three-dimensional architecture of genomes. J. Vis. Exp. JoVE https:doi.org10.37911869 (2010). 14. Friedman, N.  Rando, O. J. Epigenomics and the structure of the living genome. Genome Res. 25, 1482 1490 (2015). 15. Dali, R.  Blanchette, M. A critical assessment of topologically associating domain prediction tools. Nucleic Acids Res. 45, 2994 3005 (2017). 16. Cubeas-Potts, C.  Corces, V. G. Architectural proteins, transcription, and the three-dimensional organization of the genome. FEBS Lett. 589, 2923 2930 (2015). 17. Symmons, O. et al. Functional and topological characteristics of mammalian regulatory domains. Genome Res. 24, 390 400 (2014). 18. Heger, P., Marin, B., Bartkuhn, M., Schierenberg, E.  Wiehe, T. The chromatin insulator CTCF and the emergence of metazoan diversity. Proc. Natl Acad. Sci. USA 109, 17507 17512 (2012). 19. Rubio, E. D. et al. CTCF physically links cohesin to chromatin. Proc. Natl Acad. Sci. USA 105, 8309 8314 (2008). 20. Filippova, G. N. et al. An exceptionally conserved transcriptional repressor, CTCF, employs different combinations of zinc ngers to bind diverged promoter sequences of avian and mammalian c-myc oncogenes. Mol. Cell. Biol. 16, 2802 2813 (1996). 21. Acemel, R. D., Maeso, I.  Gmez-Skarmeta, J. L. Topologically associated domains: a successful scaffold for the evolution of gene regulation in animals.Wiley Interdiscip. Rev. Dev. Biol .6, e265 (2017). 22. Lazar, N. H. et al. Epigenetic maintenance of topological domains in the highly rearranged gibbon genome. Genome Res. 28, 983 997 (2018). 23. Touceda-Surez, M. et al. Ancient genomic regulatory blocks are a source for regulatory gene deserts in vertebrates after whole-genome duplications. Mol. Biol. Evol. 37, 2857 2864 (2020). 24. Kryuchkova-Mostacci, N.  Robinson-Rechavi, M. Tissue-speci city of gene expression diverges slowly between orthologs, and rapidly between paralogs.PLOS Comput. Biol. 12, e1005274 (2016).ARTICLE NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 10 NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunications25. Buenrostro, J. D., Giresi, P. G., Zaba, L. C., Chang, H. Y.  Greenleaf, W. J. Transposition of native chromatin for fast and sensitive epigenomic pro ling of open chromatin, DNA-binding proteins and nucleosome position. Nat. Methods 10, 1213 (2013). 26. Hood, K. N. et al. Endoplasmic reticulum stress contributes to the loss of newborn hippocampal neurons after traumatic brain injury. J. Neurosci. 38, 2372 2384 (2018). 27. Wang, Y. et al. The role of E2F1-topoII signaling in regulation of cell cycle exit and neuronal differentiation of human SH-SY5Y cells. Differ. Res. Biol. Divers 104,112 (2018). 28. Lu, C. et al. Overexpression of NEUROG2 and NEUROG1 in human embryonic stem cells produces a network of excitatory and inhibitoryneurons. FASEB J. 33, 5287 5299 (2019). 29. Kanatani, S. et al. The COUP-TFIINeuropilin-2 is a molecular switch steering diencephalon-derived GABAergic neurons in the developing mouse brain.Proc. Natl Acad. Sci. USA 112, E4985 E4994 (2015). 30. Corona, C. et al. Activating transcription factor 4 (ATF4) regulates neuronal activity by controlling GABABR traf cking. J. Neurosci. 38, 6102 6113 (2018). 31. Shinghal, R., Scheller, R. H.  Bajjalieh, S. M. Ceramide 1-phosphate phosphatase activity in brain. J. Neurochem. 61, 2279 2285 (1993). 32. Oegema, R. et al. Human mutations in integrator complex subunits link transcriptome integrity to brain development. PLoS Genet. 13, e1006809 (2017). 33. Hamley, I. W. The amyloid beta peptide: a chemist s perspective. Role in Alzheimer s and brillization. Chem. Rev. 112, 5147 5192 (2012). 34. Wang, Q., Moore, M. J., Adelmant, G., Marto, J. A.  Silver, P. A. PQBP1, a factor linked to intellectual disability, affects alternative splicing associated with neurite outgrowth. Genes Dev. 27, 615 626 (2013). 35. Zadjali, F. et al. Homozygosity for FARSB mutation leads to Phe-tRNA synthetase-related disease of growth restriction, brain calci cation, and interstitial lung disease. Hum. Mutat. 39, 1355 1359 (2018). 36. Fiorito, G. et al. Guidelines for the care and welfare of cephalopods in research a consensus based on an initiative by CephRes, FELASA and the Boyd Group. Lab. Anim. 49,1 90 (2015). 37. Butler-Struben, H. M., Brophy, S. M., Johnson, N. A.  Crook, R. J. In vivo recording of neural and behavioral correlates of anesthesia induction, reversal,and euthanasia in cephalopod molluscs. Front. Physiol .9, 109 (2018). 38. Shigeno, S., Parnaik, R., Albertin, C. B.  Ragsdale, C. W. Evidence for a cordal, not ganglionic, pattern of cephalopod brain neurogenesis. Zoological Lett.https:doi.org10.1186s40851-015-0026-z (2015). 39. Collins, A. J.  Nyholm, S. V. Obtaining hemocytes from the Hawaiian bobtail squid Euprymna scolopes and observing their adherence to symbiotic andnon-symbiotic bacteria. J. Vis. Exp. JoVE 1714, https:doi.org10.37911714 (2010). 40. Lee, P. N., Callaerts, P.  de Couet, H. G. The embryonic development of the Hawaiian bobtail squid (Euprymna scolopes). Cold Spring Harb. Protoc. 2009 , pdb.ip77 (2009). 41. Rao, S. S. P. et al. A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping. Cell159, 1665 1680 (2014). 42. Serra, F. et al. Automatic analysis and 3D-modelling of Hi-C data using TADbit reveals structural features of the y chromatin colors. PLOS Comput. Biol. 13, e1005665 (2017). 43. Wolff, J. et al. Galaxy HiCExplorer 3: a web server for reproducible Hi-C, capture Hi-C and single-cell Hi-C data analysis, quality control andvisualization. Nucleic Acids Res .https:doi.org10.1093nargkaa220 (2020). 44. Camacho, C. et al. BLAST : architecture and applications. BMC Bioinforma. 10, 421 (2009). 45. Engstrm, P. G., Fredman, D.  Lenhard, B. Ancora: a web resource for exploring highly conserved noncoding elements and their association withdevelopmental regulatory genes. Genome Biol. 9, R34 (2008). 46. Bejerano, G. et al. Ultraconserved elements in the human genome. Science 304, 1321 1325 (2004). 47. Neph, S. et al. BEDOPS: high-performance genomic feature operations. Bioinformatics 28, 1919 1920 (2012). 48. Quinlan, A. R.  Hall, I. M. BEDTools: a exible suite of utilities for comparing genomic features. Bioinformatics 26, 841 842 (2010). 49. Bailey, T. L., Johnson, J., Grant, C. E.  Noble, W. S. The MEME suite. Nucleic Acids Res. 43, W39 W49 (2015). 50. Sayers, E. W. et al. Database resources of the national center for biotechnology information. Nucleic Acids Res. 50, D20 D26 (2022). 51. Corces, M. R. et al. An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues. Nat. Methods 14,9 5 9 962 (2017). 52. Buenrostro et al. ATAC-seq: a method for assaying chromatin accessibility genome-wide. Curr. Protoc. Mol. Biol. Ed. Frederick M Ausubel Al 109, 21.29.1 21.29.9 (2015).53. Tanner, A. R. et al. Molecular clocks indicate turnover and diversi cation of modern coleoid cephalopods during the Mesozoic Marine Revolution. Proc. R. Soc. B Biol. Sci. 284, 20162818 (2017). 54. Krger, B., Vinther, J.  Fuchs, D. Cephalopod origin and evolution: a congruent picture emerging from fossils, development and molecules. BioEssays 33, 602 613 (2011). Acknowledgements H.S., O.P.H., E.R., and O.S. were supported by the Austrian Science Fund (FWF) grant P30686-B29. O.S. was supported by Whitman Center Early Career Fellowship (Frank R. Lillie Quasi-Endowment Fund, L.  A. Colwin Summer Research Fellowship, Bell ResearchAward in Tissue Engineering). H.S. was supported by the short-term grant abroad (KWA)of the University of Vienna. H.S. and O.S. were supported by the University of Chicago Vienna Strategic Partnership Programme Mobility Grant. A.K. was supported by the JSPS Postdoctoral Fellowship for Overseas Researchers program from Japan. C.B.A. was sup-ported by the Hibbitt Early Career Fellowship. Eggs and paralarvae of E. scolopes were generated in part by support by the NASA Space Biology 80NSSC18K1465 awarded to J.S.F. S.V.N. was supported by the National Science Foundation IOS-1557914. This work was supported by the Francis Crick Institute, which receives its core funding from CancerResearch UK (FC0001003), the UK Medical Research Council (FC001003), and the Well-come Trust (FC001003). Authors wish to thank Vienna Zoo (Tiergarten Schnbrunn), inparticular, Roland Halbauer and the aquaristics team for animal husbandry, as well as the MBL Cephalopod Program, their team, Emily Garcia, and the MBL Central Microscopy Facility (MBL, Woods Hole). Authors thank the Department of Neuroscience and Devel-opmental Biology at the University of Vienna, especially Andreas Denner. Computation wasdone using the Life Sciences Cluster at the University of Vienna. Sectioning was done at the Core Facility CIUS (University of Vienna). Authors wish to thank Daniel Rokhsar and Clifton Ragsdale for guidance and advice. Author contributions H.S. performed comparative genomic analysis with the support of O.S., A.K. performedHi-C experiments, H.S. and A.K. performed ATAC-seq data collection. H.S. and C.A.performed in situ hybridization. T.G., X.F., and P.B. performed 3D reconstruction andanalysis. H.S. and O.P.H. performed ATAC-seq quanti cation. H.S. and B.Z. performed co-expression and syntenic randomization analysis, E.A.R., H.S., and C.A. performed RNA-seq extraction. J.F. and S.N. supplied animals. A.W. and Vienna Zoo housedanimals. H.S., C.A., E.T., and O.S. designed the research. H.S. and O.S. wrote themanuscript with input from all other authors. Competing interests The authors declare no competing interests. Additional information Supplementary information The online version contains supplementary material available at https:doi.org10.1038s41467-022-29694-7 . Correspondence and requests for materials should be addressed to Caroline B. Albertin , Elly Tanaka or Oleg Simakov. Peer review information Nature Communications thanks Jose Martn-Durn and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available Reprints and permission information is available at http:www.nature.comreprints Publisher s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional af liations. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third partymaterial in this article are included in the article s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in thearticle s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http:creativecommons.org licensesby4.0 .  The Author(s) 2022NATURE COMMUNICATIONS  https:doi.org10.1038s41467-022-29694-7 ARTICLE NATURE COMMUNICATIONS  (2022) 13:2172  https:doi.org10.1038s41467-022-29694-7  www.nature.comnaturecommunications 11",
+        "introduction": null,
+        "conclusion": null,
+        "images": [
+            {
+                "filename": "Figure_1.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_2.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_3.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_4.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_5.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_6.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_7.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_8.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_9.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_10.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_11.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_12.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_13.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_14.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_15.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_16.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_17.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_18.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_19.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_20.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_21.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_22.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_23.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_24.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_25.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_26.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_27.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_28.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_29.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_30.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_31.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_32.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_33.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_34.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_35.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_36.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_37.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_38.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_39.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_40.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_41.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_42.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_43.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_44.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_45.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_46.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_47.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_48.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_49.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_50.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_51.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_52.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_53.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_54.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_55.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_56.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_57.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_58.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_59.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_60.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_61.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_62.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_63.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_64.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_65.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_66.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_67.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_68.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_69.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_70.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_71.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_72.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_73.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_74.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_75.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_76.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_77.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_78.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_79.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_80.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_81.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_82.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_83.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_84.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_85.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_86.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_87.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_88.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_89.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_90.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_91.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_92.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_93.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_94.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_95.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_96.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_97.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_98.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_99.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_100.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_101.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_102.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_103.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_104.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_105.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_106.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_107.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_108.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_109.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_110.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_111.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_112.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_113.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_114.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_115.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_116.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_117.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_118.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_119.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_120.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_121.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_122.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_123.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_124.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_125.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_126.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_127.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_128.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_129.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_130.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_131.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_132.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_133.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_134.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_135.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_136.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_137.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_138.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_139.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_140.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_141.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_142.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_143.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_144.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_145.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_146.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_147.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_148.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_149.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_150.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_151.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_152.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_153.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_154.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_155.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_156.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_157.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_158.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_159.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_160.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_161.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_162.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_163.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_164.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_165.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_166.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_167.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_168.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_169.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_170.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_171.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_172.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_173.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_174.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_175.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_176.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_177.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_178.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_179.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_180.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_181.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_182.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_183.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_184.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_185.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_186.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_187.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_188.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_189.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_190.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_191.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_192.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_193.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_194.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_195.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_196.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_197.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_198.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_199.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_200.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_201.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_202.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_203.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_204.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_205.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_206.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_207.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_208.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_209.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_210.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_211.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_212.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_213.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_214.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_215.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_216.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_217.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_218.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_219.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_220.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_221.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_222.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_223.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_224.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_225.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_226.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_227.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_228.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_229.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_230.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_231.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_232.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_233.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_234.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_235.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_236.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_237.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_238.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_239.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_240.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_241.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_242.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_243.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_244.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_245.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_246.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_247.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_248.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_249.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_250.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_251.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_252.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_253.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_254.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_255.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_256.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_257.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_258.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_259.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_260.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_261.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_262.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_263.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_264.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_265.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_266.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_267.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_268.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_269.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_270.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_271.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_272.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_273.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_274.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_275.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_276.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_277.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_278.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_279.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_280.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_281.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_282.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_283.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_284.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_285.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_286.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_287.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_288.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_289.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_290.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_291.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_292.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_293.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_294.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_295.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_296.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_297.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_298.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_299.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_300.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_301.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_302.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_303.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_304.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_305.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_306.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_307.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_308.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_309.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_310.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_311.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_312.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_313.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_314.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_315.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_316.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_317.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_318.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_319.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_320.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_321.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_322.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_323.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_324.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_325.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_326.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_327.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_328.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_329.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_330.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_331.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_332.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_333.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_334.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_335.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_336.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_337.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_338.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_339.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_340.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_341.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_342.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_343.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_344.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_345.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_346.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_347.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_348.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_349.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_350.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_351.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_352.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_353.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_354.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_355.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_356.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_357.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_358.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_359.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_360.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_361.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_362.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_363.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_364.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_365.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_366.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_367.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_368.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_369.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_370.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_371.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_372.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_373.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_374.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_375.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_376.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_377.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_378.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_379.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_380.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_381.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_382.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_383.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_384.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_385.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_386.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_387.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_388.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_389.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_390.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_391.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_392.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_393.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_394.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_395.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_396.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_397.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_398.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_399.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_400.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_401.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_402.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_403.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_404.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_405.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_406.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_407.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_408.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_409.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_410.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_411.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_412.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_413.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_414.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_415.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_416.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_417.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_418.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_419.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_420.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_421.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_422.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_423.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_424.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_425.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_426.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_427.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_428.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_429.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_430.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_431.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_432.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_433.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_434.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_435.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_436.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_437.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_438.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_439.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_440.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_441.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_442.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_443.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_444.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_445.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_446.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_447.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_448.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_449.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_450.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_451.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_452.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_453.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_454.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_455.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_456.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_457.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_458.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_459.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_460.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_461.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_462.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_463.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_464.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_465.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_466.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_467.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_468.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_469.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_470.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_471.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_472.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_473.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_474.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_475.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_476.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_477.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_478.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_479.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_480.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_481.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_482.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_483.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_484.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_485.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_486.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_487.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_488.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_489.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_490.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_491.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_492.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_493.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_494.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_495.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_496.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_497.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_498.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_499.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_500.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_501.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_502.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_503.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_504.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_505.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_506.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_507.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_508.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_509.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_510.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_511.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_512.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_513.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_514.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_515.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_516.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_517.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_518.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_519.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_520.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_521.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_522.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_523.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_524.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_525.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_526.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_527.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_528.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_529.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_530.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_531.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_532.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_533.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_534.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_535.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_536.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_537.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_538.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_539.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_540.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_541.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_542.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_543.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_544.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_545.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_546.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_547.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_548.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_549.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_550.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_551.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_552.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_553.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_554.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_555.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_556.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_557.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_558.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_559.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_560.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_561.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_562.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_563.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_564.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_565.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_566.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_567.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_568.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_569.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_570.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_571.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_572.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_573.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_574.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_575.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_576.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_577.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_578.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_579.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_580.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_581.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_582.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_583.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_584.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_585.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_586.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_587.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_588.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_589.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_590.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_591.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_592.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_593.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_594.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_595.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_596.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_597.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_598.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_599.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_600.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_601.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_602.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_603.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_604.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_605.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_606.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_607.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_608.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_609.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_610.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_611.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_612.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_613.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_614.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_615.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_616.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_617.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_618.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_619.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_620.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_621.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_622.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_623.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_624.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_625.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_626.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_627.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_628.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_629.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_630.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_631.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_632.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_633.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_634.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_635.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_636.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_637.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_638.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_639.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_640.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_641.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_642.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_643.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_644.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_645.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_646.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_647.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_648.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_649.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_650.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_651.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_652.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_653.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_654.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_655.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_656.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_657.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_658.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_659.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_660.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_661.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_662.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_663.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_664.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_665.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_666.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_667.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_668.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_669.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_670.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_671.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_672.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_673.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_674.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_675.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_676.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_677.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_678.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_679.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_680.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_681.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_682.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_683.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_684.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_685.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_686.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_687.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_688.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_689.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_690.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_691.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_692.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_693.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_694.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_695.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_696.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_697.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_698.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_699.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_700.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_701.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_702.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_703.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_704.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_705.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_706.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_707.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_708.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_709.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_710.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_711.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_712.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_713.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_714.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_715.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_716.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_717.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_718.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_719.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_720.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_721.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_722.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_723.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_724.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_725.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_726.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_727.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_728.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_729.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_730.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_731.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_732.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_733.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_734.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_735.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_736.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_737.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_738.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_739.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_740.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_741.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_742.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_743.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_744.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_745.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_746.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_747.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_748.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_749.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_750.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_751.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_752.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_753.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_754.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_755.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_756.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_757.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_758.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_759.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_760.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_761.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_762.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_763.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_764.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_765.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_766.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_767.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_768.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_769.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_770.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_771.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_772.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_773.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_774.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_775.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_776.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_777.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_778.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_779.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_780.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_781.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_782.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_783.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_784.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_785.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_786.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_787.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_788.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_789.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_790.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_791.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_792.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_793.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_794.jpg",
+                "caption": "No caption available"
+            },
+            {
+                "filename": "Figure_795.jpg",
+                "caption": "No caption available"
+            }
+        ]
+    }
+]

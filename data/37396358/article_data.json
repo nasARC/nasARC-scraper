@@ -1,0 +1,13 @@
+[
+    {
+        "pmid": "37396358",
+        "title": "Comparative genomic analysis of Cohnella hashimotonis sp. nov. isolated from the International Space Station.",
+        "year": "2023",
+        "journal": "Front Microbiol",
+        "abstract": "A single strain from the family Paenibacillaceae was isolated from the wall behind the Waste Hygiene Compartment aboard the International Space Station (ISS) in April 2018, as part of the Microbial Tracking mission series. This strain was identified as a gram-positive, rod-shaped, oxidase-positive, catalase-negative motile bacterium in the genus Cohnella, designated as F6_2S_P_1T. The 16S sequence of the F6_2S_P_1T strain places it in a clade with C. rhizosphaerae and C. ginsengisoli, which were originally isolated from plant tissue or rhizosphere environments. The closest 16S and gyrB matches to strain F6_2S_P_1T are to C. rhizosphaerae with 98.84 and 93.99% sequence similarity, while a core single-copy gene phylogeny from all publicly available Cohnella genomes places it as more closely related to C. ginsengisoli. Average nucleotide identity (ANI) and digital DNA-DNA hybridization (dDDH) values to any described Cohnella species are &lt;89 and &lt;22%, respectively. The major fatty acids for strain F6_2S_P_1T are anteiso-C<sub>15:0</sub> (51.7%), iso-C<sub>16:0</sub> (23.1%), and iso-C<sub>15:0</sub> (10.5%), and it is able to metabolize a wide range of carbon compounds. Given the results of the ANI and dDDH analyses, this ISS strain is a novel species within the genus Cohnella for which we propose the name Cohnella hashimotonis, with the type strain F6_2S_P_1T (=NRRL B-65657T and DSMZ 115098T). Because no closely related Cohnella genomes were available, this study generated the whole-genome sequences (WGSs) of the type strains for C. rhizosphaerae and C. ginsengisoli. Phylogenetic and pangenomic analysis reveals that F6_2S_P_1T, C. rhizosphaerae, and C. ginsengisoli, along with two uncharacterized Cohnella strains, possess a shared set of 332 gene clusters which are not shared with any other WGS of Cohnella species, and form a distinct clade branching off from C. nanjingensis. Functional traits were predicted for the genomes of strain F6_2S_P_1T and other members of this clade.",
+        "full_text": "",
+        "introduction": null,
+        "conclusion": null,
+        "images": []
+    }
+]

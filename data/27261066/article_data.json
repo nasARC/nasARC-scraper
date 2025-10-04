@@ -1,0 +1,13 @@
+[
+    {
+        "pmid": "27261066",
+        "title": "A ROS-Assisted Calcium Wave Dependent on the AtRBOHD NADPH Oxidase and TPC1 Cation Channel Propagates the Systemic Response to Salt Stress.",
+        "year": "2016",
+        "journal": "Plant Physiol",
+        "abstract": "Plants exhibit rapid, systemic signaling systems that allow them to coordinate physiological and developmental responses throughout the plant body, even to highly localized and quickly changing environmental stresses. The propagation of these signals is thought to include processes ranging from electrical and hydraulic networks to waves of reactive oxygen species (ROS) and cytoplasmic Ca(2+) traveling throughout the plant. For the Ca(2+) wave system, the involvement of the vacuolar ion channel TWO PORE CHANNEL1 (TPC1) has been reported. However, the precise role of this channel and the mechanism of cell-to-cell propagation of the wave have remained largely undefined. Here, we use the fire-diffuse-fire model to analyze the behavior of a Ca(2+) wave originating from Ca(2+) release involving the TPC1 channel in Arabidopsis (Arabidopsis thaliana). We conclude that a Ca(2+) diffusion-dominated calcium-induced calcium-release mechanism is insufficient to explain the observed wave transmission speeds. The addition of a ROS-triggered element, however, is able to quantitatively reproduce the observed transmission characteristics. The treatment of roots with the ROS scavenger ascorbate and the NADPH oxidase inhibitor diphenyliodonium and analysis of Ca(2+) wave propagation in the Arabidopsis respiratory burst oxidase homolog D (AtrbohD) knockout background all led to reductions in Ca(2+) wave transmission speeds consistent with this model. Furthermore, imaging of extracellular ROS production revealed a systemic spread of ROS release that is dependent on both AtRBOHD and TPC1 These results suggest that, in the root, plant systemic signaling is supported by a ROS-assisted calcium-induced calcium-release mechanism intimately involving ROS production by AtRBOHD and Ca(2+) release dependent on the vacuolar channel TPC1.",
+        "full_text": "",
+        "introduction": null,
+        "conclusion": null,
+        "images": []
+    }
+]

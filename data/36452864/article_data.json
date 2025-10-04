@@ -1,0 +1,13 @@
+[
+    {
+        "pmid": "36452864",
+        "title": "Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight.",
+        "year": "2022",
+        "journal": "Cell Rep Methods",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) and spatially resolved transcriptomics (SRT) have experienced rapid development in recent years. The findings of spaceflight-based scRNA-seq and SRT investigations are likely to improve our understanding of life in space and our comprehension of gene expression in various cell systems and tissue dynamics. However, compared to their Earth-based counterparts, gene expression experiments conducted in spaceflight have not experienced the same pace of development. Out of the hundreds of spaceflight gene expression datasets available, only a few used scRNA-seq and SRT. In this perspective piece, we explore the growing importance of scRNA-seq and SRT in space biology and discuss the challenges and considerations relevant to robust experimental design to enable growth of these methods in the field.",
+        "full_text": "",
+        "introduction": null,
+        "conclusion": null,
+        "images": []
+    }
+]
